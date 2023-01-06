@@ -19,9 +19,10 @@ const Banner = () => {
 
                      </div>
                      <div className='col-12 col-md-4'>
-                         <div>
-                            <p></p>
-                            <p>Side news</p>
+                         <div className=' d-flex justify-content-between'>
+                            
+                            <p className='bg-primary px-5 rounded text-white py-2'>Side news</p>
+                            <p>Others news</p>
                          </div>
                          <ul class="list-group list-group-flush">
   <li class="list-group-item">Cras justo odio</li>
