@@ -1,60 +1,19 @@
 .zoom {
-    padding: 10px;
-    transition: transform .3s; /* Animation */
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  
-  .zoom:hover {
-    transform: scale(1.1); 
-   
-  }
-  .intro-image-box{
-
-  height: auto;
-  border-radius: 1%;
-  overflow: hidden;
-  
-
-}
-.intro-image-box img{
-  
-  height: auto;
-  border-radius: 1%;
-  transform: scale(1.0);
-  transition: transform 0.2s;
- 
-}
-.intro-image-box img:hover {
-  transform: scale(1.15);
   overflow: hidden;
 }
-
-.shop-item {
-  width: 50%;
-  flex-basis: 33, 33%;
-  margin: 10px;
-  border: 1px solid #cdcdcd;
-  overflow: hidden;
-}
-.shop-item .imgContainer {
-  width: 100%;
+.zoom .imgContainer {
   height: auto;
   overflow: hidden;
 }
-.shop-item:hover .imgContainer img {
+.zoom:hover .imgContainer img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-.shop-item .imgContainer img {
-  width: 100%;
+.zoom .imgContainer img {
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
-.shop-item > .shop-content {
-  padding: 10px;
-}
+
 /* <div class="shop-item">
   <div class="imgContainer">
     <img src="http://redensart.bplaced.net/img/schild.jpg" />
