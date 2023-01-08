@@ -5,6 +5,7 @@ import Navbar from './components/Home/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Categories from './components/Home/Categories';
 import Footer from './components/Home/Footer';
+import DetailsPage from './components/Home/DetailsPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<Home></Home>}>
           </Route>
           <Route path='/categories' element={<Categories></Categories>}></Route>
+          <Route path='/details' element={<DetailsPage/>}></Route>
         </Routes>
         <Footer></Footer>
     </div>

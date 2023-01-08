@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
         <div>
@@ -52,7 +53,7 @@ const Banner = () => {
                                 <div class="card-body">
                                     <h5 class="card-title">Sports</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button class="btn btn-primary">Check it out</button>
+                                   <Link to='/details'> <button class="btn btn-primary">Check it out</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +63,7 @@ const Banner = () => {
                                 <div class="card-body">
                                     <h5 class="card-title">Music</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button class="btn btn-primary">Check it out</button>
+                                    <Link to='/details'> <button class="btn btn-primary">Check it out</button></Link>
                                 </div>
                             </div>
                         </div>
