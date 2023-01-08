@@ -36,6 +36,10 @@ const Economics = () => {
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid w-50 h-50 me-3 mt-2' alt=""/>
                             <p className='fs-6 '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         </div>
+                        <div className='col-12 d-flex my-2'>
+                            <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid w-50 h-50 me-3 mt-2' alt=""/>
+                            <p className='fs-6 '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
                         </div>
                
                 </div>
