@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css'
 const Contact = () => {
     return (
-        <div className='container mt-5'>
+        <div className='container-fluid mt-5'>
             <h3 className='text-center mt-5 mb-4 bg-danger py-2 text-white'>Contact us</h3>
             <div className='row g-5'>
             <div className='col-12 col-md-6 zoom'>
