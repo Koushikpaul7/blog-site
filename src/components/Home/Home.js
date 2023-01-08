@@ -1,16 +1,19 @@
 import React from 'react';
 import Banner from './Banner';
-
+import Contact from './Contact';
+import Politics from './Politics';
+import Sports from './Sports';
+import './Contact.css'
+import Economics from './Economics';
 const Home = () => {
     return (
         <div className='container-fluid'>
-          <marquee>
-            <div className='d-flex fs-4'>
-                <p className='me-5 '>Latest news</p>
-                <p>Top news</p>
-            </div>
-          </marquee>
+          
           <Banner></Banner>
+          <Sports></Sports>
+          <Politics></Politics>
+          <Economics></Economics>
+          <Contact></Contact>
         </div>
     );
 };
