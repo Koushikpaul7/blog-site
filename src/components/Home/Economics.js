@@ -24,7 +24,11 @@ const Economics = () => {
                 {/* middle part */}
                 <div className='col-12 col-md-6'>
                 <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/oil-cv-20230107153121.jpg" className='img-fluid zoom ' alt="" />
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <h1>Lorem Ipsum is simply dummy text of the printing.</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. </p>
                 </div>
 
                     {/* Last part */}
