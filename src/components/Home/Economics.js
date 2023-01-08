@@ -1,13 +1,14 @@
 import React from 'react';
-
+import './Contact.css'
 const Economics = () => {
     return (
         <div className='container-fluid mt-4'>
             <h2 className='text-info'>Economics</h2>
             <div className='row'>
                 {/* first part */}
-                <div className='col-12 col-md-3'>
-                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/samson-h-chowdhury-20230107142137.jpg" className='img-fluid zoom ' alt="" />
+  
+                <div className='col-12 col-md-3 intro-image-box'>
+                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/samson-h-chowdhury-20230107142137.jpg" className='img-fluid  ' alt="" />
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     <div className='row gap-2'>
                         <div className='col-12 d-flex my-2'>
