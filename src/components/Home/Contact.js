@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css'
+import Last from './Last';
 const Contact = () => {
     return (
         <div className='container-fluid mt-5'>
@@ -34,6 +35,7 @@ const Contact = () => {
                 </div>
 
             </div>
+            <Last></Last>
         </div>
     );
 };

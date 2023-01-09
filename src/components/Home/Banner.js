@@ -72,9 +72,9 @@ const Banner = () => {
 
                                     <img src="https://www.ncw.co.uk/wp-content/uploads/2020/06/Music-Club.jpg" class="card-img-top img-fluid" alt="..." />
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Music</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-start">Music</h5>
+                                    <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <Link to='/details'> <button class="btn btn-primary">Check it out</button></Link>
                                 </div>
                             </div>
