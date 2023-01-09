@@ -3,7 +3,7 @@ import './Last.css'
 import './Categories.css'
 const Last = () => {
     return (
-        <div className='container mt-5'>
+        <div className='container mt-5 py-5'>
             <div className='row g-2'>
                 <div className=' col-12 col-md-8 '>
                     <h3 className='title my-3 border-style'>

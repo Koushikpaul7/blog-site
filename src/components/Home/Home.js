@@ -7,7 +7,7 @@ import './Contact.css'
 import Economics from './Economics';
 const Home = () => {
   return (
-    <div className=''>
+    <div className='bg-light'>
 
       <Banner></Banner>
       <Sports></Sports>

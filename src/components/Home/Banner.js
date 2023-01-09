@@ -135,10 +135,10 @@ const Banner = () => {
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
-                                    <img src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                    <img style={{height:"200px"}} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
                             </div>
                         </div>
@@ -150,10 +150,10 @@ const Banner = () => {
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
-                                    <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..." />
+                                    <img style={{height:"200px"}}src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
                             </div>
                         </div>
@@ -165,10 +165,10 @@ const Banner = () => {
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
-                                    <img src="https://dt-media.dhakatribune.com/?width=400&height=280&cropratio=4:5&quality=50&image=en/uploads/2021/11/06/education-minister-jsc-exam-4-1572692715210-1572692715211.jpeg&anchor=top" class="card-img-top" alt="..." />
+                                    <img style={{height:"200px"}} src="https://dt-media.dhakatribune.com/?width=400&height=280&cropratio=4:5&quality=50&image=en/uploads/2021/11/06/education-minister-jsc-exam-4-1572692715210-1572692715211.jpeg&anchor=top" class="card-img-top" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
                             </div>
                         </div>
@@ -180,10 +180,10 @@ const Banner = () => {
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
-                                    <img src="https://www.theindependentbd.com/assets/news_images/BD,ee.jpg" class="card-img-top" alt="..." />
+                                    <img style={{height:"200px"}} src="https://www.theindependentbd.com/assets/news_images/BD,ee.jpg" class="card-img-top" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
                             </div>
                         </div>

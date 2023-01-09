@@ -8,8 +8,8 @@ const Footer = () => {
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <footer class="bg-light text-center text-lg-start mt-5 ">
-      <div className='d-md-flex d-none d-md-block justify-content-between px-5 background align-items-center py-2'>
+    <footer class=" background text-center text-lg-start ">
+      <div className='container d-md-flex d-none d-md-block justify-content-between px-5 background align-items-center py-2'>
         <div className='pb-2'>
           <img src="https://www.onblastblog.com/wp-content/uploads/2017/08/blogger-logo.jpg" style={{ width: "90px", height: "30px" }} alt="" />
         </div>
@@ -27,14 +27,14 @@ const Footer = () => {
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
               <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>BLOGS
+                BLOGS
               </h6>
               <p className='justify'>
               BLOGS is one of the popular Blog site. It has begun with commitment of fearless, investigative, informative and independent journalism. This online site has started to provide real time news updates with maximum use of modern technology.-a
               </p>
             </div>
 
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-md-2 col-lg-2 col-xl-2  mb-4">
 
               <h6 class="text-uppercase fw-bold mb-4">
                 Products
@@ -90,8 +90,8 @@ const Footer = () => {
 
         </div>
       </section>
-      <section className='d-flex justify-content-center justify-content-lg-between   background pb-4'>
-        <div className='me-5 d-none d-lg-block border-bottom ms-4'>
+      <section className=' container d-flex justify-content-center justify-content-lg-between   background pb-4'>
+        <div className=' d-none d-lg-block border-bottom ms-4'>
           <h6>Get connected with us on social networks:</h6>
         </div>
         <div>

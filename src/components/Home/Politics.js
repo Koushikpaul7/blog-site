@@ -10,9 +10,6 @@ const Politics = () => {
                         <span className=''>Politics</span>
                     </h3>
                     <div
-                        data-aos="flip-left"
-                        data-aos-duration='1200'
-                        data-aos-delay='200'
                         className='zoom'>
                         <div className='imgContainer'>
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/mosha-20230107133407.jpg" className='img-fluid zoom' alt="" />
@@ -72,9 +69,6 @@ const Politics = () => {
                         <span className='me-5 '>Vote</span>
                     </h3>
                     <div
-                        data-aos="flip-left"
-                        data-aos-duration='1000'
-                        data-aos-delay='200'
                         className='zoom'>
                         <div className='imgContainer'>
 
