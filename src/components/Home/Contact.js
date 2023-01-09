@@ -7,7 +7,7 @@ const Contact = () => {
             <div className='row g-5'>
                 <div className='col-12 col-md-6 zoom'>
                     <div className='imgContainer'>
-                        <img src="https://media.istockphoto.com/id/1365543480/video/contact-us-concept.jpg?s=640x640&k=20&c=G16GzQ4uJKlITww2ArmKNB9UKb1-IT2eyJrUxkUmAIY=" alt="" className='img-fluid rounded h-full zoom' />
+                        <img src="https://media.istockphoto.com/id/1365543480/video/contact-us-concept.jpg?s=640x640&k=20&c=G16GzQ4uJKlITww2ArmKNB9UKb1-IT2eyJrUxkUmAIY=" alt="" className='img-fluid rounded h-full ' />
 
                     </div>
                 </div>
