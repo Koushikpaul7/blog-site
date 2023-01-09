@@ -6,10 +6,14 @@ import Last from './Last';
 const DetailsPage = () => {
     return (
         <div>
-            <div className='container-fluid'>
+            <div className='container-fluid mt-5 pt-5'>
                 <div className='row g-2'>
                     <div className='col-12 col-md-8 '>
-                        <div className='my-5 mx-4'>
+                        <div className='my-5 mx-4'
+                       data-aos="fade-right"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        >
 
                             <h3 className='text-info me-5'>Lorem Ipsum is simply dummy industry. </h3>
                             <h1>Lorem Ipsum is simply dummy text of the printing . </h1>
@@ -21,7 +25,13 @@ const DetailsPage = () => {
             <div className='container'>
                 <div className='row g-2'>
                     <div className='col-12 col-md-8 zoom'>
-                        <div className='imgContainer'>
+                        <div className='imgContainer'
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        >
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cr-7-20230106114916.jpg" className='img-fluid w-full' alt="" />
                         </div>
                         <h5 className='text-muted my-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -53,9 +63,16 @@ const DetailsPage = () => {
                     {/* 2nd part */}
                     <div className='col-12 col-md-4'>
                         <h3 className='title my-3 border-style'>
-                            <span className='me-5 '>Latest-Sports</span>
+                            <span 
+                            className='me-5 '>Latest-Sports</span>
                         </h3>
-                        <ul class="list-group list-group-flush mt-3">
+                        <ul
+                         data-aos="fade-left"
+                         data-aos-anchor="#example-anchor"
+                         data-aos-offset="500"
+                         data-aos-duration='1000'
+                         data-aos-delay='200' 
+                        class="list-group list-group-flush mt-3">
                        <li class="list-group-item"> < AiOutlineDoubleRight/> An item</li>
                             <li class="list-group-item"> < AiOutlineDoubleRight/> A second item</li>
                             <li class="list-group-item">< AiOutlineDoubleRight/> A third item</li>
@@ -67,25 +84,45 @@ const DetailsPage = () => {
                             <h4 className='title my-3 border-style'>
                             <span className='me-5 '>Most Viewed</span>
                         </h4>
-                            <div className='imgContainer'>
+                            <div 
+                            data-aos="fade-left"
+                            data-aos-duration='1000'
+                         data-aos-delay='200'
+                            className='imgContainer'>
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/tv-20230101101653.jpg" className='img-fluid' alt=""/>
                             </div>
                             <p className='fs-5 fw-bold'>See Today's match live.</p>
                             </div>
                             <div className='col-6 col-md-6'>
-                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/dfgdf-20230106125109.jpg" className='img-fluid' alt=""/>
+                                <img
+                                data-aos="fade-up-right"
+                                data-aos-duration='1000'
+                         data-aos-delay='200'
+                                src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/dfgdf-20230106125109.jpg" className='img-fluid' alt=""/>
                                 <p>Lorem Ipsum is simply dummy text of the printing . </p>
                             </div>
                             <div className='col-6 col-md-6'>
-                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/bpl-20230106141305.jpg" className='img-fluid' alt=""/>
+                                <img
+                                 data-aos="fade-up-left"
+                                 data-aos-duration='1000'
+                          data-aos-delay='200'
+                                src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/bpl-20230106141305.jpg" className='img-fluid' alt=""/>
                                 <p>Lorem Ipsum is simply dummy text of the printing . </p>
                             </div>
                             <div className='col-6 col-md-6'>
-                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/mash-20230106165016.jpg" className='img-fluid' alt=""/>
+                                <img
+                                 data-aos="fade-down-left"
+                                 data-aos-duration='1000'
+                          data-aos-delay='200'
+                                src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/mash-20230106165016.jpg" className='img-fluid' alt=""/>
                                 <p>Lorem Ipsum is simply dummy text of the printing . </p>
                             </div>
                             <div className='col-6 col-md-6'>
-                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/toss-20230107183723.jpg" className='img-fluid' alt=""/>
+                                <img
+                                 data-aos="fade-down-right"
+                                 data-aos-duration='1000'
+                          data-aos-delay='200'
+                                src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/toss-20230107183723.jpg" className='img-fluid' alt=""/>
                                 <p>Lorem Ipsum is simply dummy text of the printing . </p>
                             </div>
                         </div>

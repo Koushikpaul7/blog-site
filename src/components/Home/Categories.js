@@ -14,9 +14,12 @@ const Categories = () => {
             <div className='container'>
                 <div className='row  gx-4 gy-4'>
                     <div className='col-6  col-md-3 mb-2 zoom'>
-                        <div class="card point card-border " >
+                        <div
+                            data-aos="flip-left"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            class="card point card-border " >
                             <div className='imgContainer'>
-
                                 <img src="https://thumbs.dreamstime.com/b/sports-news-broadcast-graphics-title-graphic-main-hd-seamless-looping-video-animation-see-all-other-elements-series-to-43669416.jpg" style={{ height: "150px" }} class="card-img-top" alt="..." />
                             </div>
                             <div class="card-body">
@@ -26,7 +29,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-6  col-md-3 mb-2 zoom'>
+                    <div
+                        data-aos="flip-left"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='col-6  col-md-3 mb-2 zoom'>
                         <div class="card point card-border " >
                             <div className='imgContainer'>
 
@@ -39,7 +46,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-6  col-md-3 mb-2 zoom'>
+                    <div
+                        data-aos="flip-right"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='col-6  col-md-3 mb-2 zoom'>
                         <div class="card point card-border ">
                             <div className='imgContainer'>
 
@@ -52,7 +63,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-6  col-md-3 mb-2 zoom'>
+                    <div
+                        data-aos="flip-right"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='col-6  col-md-3 mb-2 zoom'>
                         <div class="card point card-border rounded-4 ">
                             <div className='imgContainer'>
 
@@ -66,7 +81,11 @@ const Categories = () => {
                         </div>
                     </div>
                     {/* second */}
-                    <div className='col-6  col-md-3 mb-2 zoom'>
+                    <div
+                        data-aos="flip-up"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='col-6  col-md-3 mb-2 zoom'>
                         <div class="card point card-border rounded-4 ">
                             <div className='imgContainer'>
 
@@ -79,7 +98,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-6  col-md-3 mb-2 zoom'>
+                    <div
+                        data-aos="flip-up"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='col-6  col-md-3 mb-2 zoom'>
                         <div class="card point card-border rounded-4 ">
                             <div className='imgContainer'>
 
@@ -92,7 +115,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-6  col-md-3 mb-2 zoom'>
+                    <div
+                        data-aos="flip-up"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='col-6  col-md-3 mb-2 zoom'>
                         <div class="card point card-border ">
                             <div className='imgContainer'>
 
@@ -105,7 +132,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-6  col-md-3 mb-2 zoom'>
+                    <div
+                        data-aos="flip-up"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='col-6  col-md-3 mb-2 zoom'>
                         <div class="card point card-border ">
                             <div className='imgContainer'>
 

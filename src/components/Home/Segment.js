@@ -5,11 +5,14 @@ const Segment = () => {
     return (
         <div>
             <div className='border-style my-3 '>
-            <h3 className='title my-3 '>
-                <span className=''>Segments</span>
+                <h3 className='title my-3 '>
+                    <span className=''>Segments</span>
                 </h3>
             </div>
-            <div className='container bg-secondary mt-3 p-3'>
+            <div
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                className='container bg-secondary mt-3 p-3'>
                 <div className='row g-4 p-3 bg-dark'>
                     <div className='col-6 col-md-3 '>
                         <p className=' text-center py-1 rounded clickable'>Sports</p>

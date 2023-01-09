@@ -5,12 +5,16 @@ const Economics = () => {
         <div className='container-fluid mt-4'>
             <h3 className='title my-3 border-style'>
                 <span className='me-5 '>Economics</span>
-                </h3>
+            </h3>
             <div className='row'>
                 {/* first part */}
 
                 <div className='col-12 col-md-3  '>
-                    <div className='zoom'>
+                    <div
+                        data-aos="zoom-in-right"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='zoom'>
 
                         <div className='imgContainer'>
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/samson-h-chowdhury-20230107142137.jpg" className='img-fluid  ' alt="" />
@@ -18,7 +22,11 @@ const Economics = () => {
                     </div>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     <div className='row gap-2'>
-                        <div className='col-12 d-flex my-2 zoom'>
+                        <div
+                            data-aos="fade-right"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-2' alt="" />
 
@@ -28,7 +36,11 @@ const Economics = () => {
                                 <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </div>
                         </div>
-                        <div className='col-12 d-flex zoom'>
+                        <div
+                            data-aos="fade-right"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 d-flex zoom'>
                             <div className='imgContainer'>
 
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid  mt-2' alt="" />
@@ -42,7 +54,11 @@ const Economics = () => {
                 </div>
 
                 {/* middle part */}
-                <div className='col-12 col-md-6 zoom'>
+                <div
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1200"
+                    className='col-12 col-md-6 zoom'>
                     <div className='imgContainer'>
 
                         <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/oil-cv-20230107153121.jpg" className='img-fluid ' alt="" />
@@ -56,7 +72,11 @@ const Economics = () => {
 
                 {/* Last part */}
                 <div className='col-12 col-md-3'>
-                    <div className='zoom'>
+                    <div
+                        data-aos="zoom-in-right"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='zoom'>
                         <div className='imgContainer'>
 
                             <img src=" https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/dse-20230107115314.jpg" className='img-fluid  ' alt="" />
@@ -64,7 +84,11 @@ const Economics = () => {
                     </div>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     <div className='row gap-2'>
-                        <div className='col-12 d-flex my-2 zoom'>
+                        <div
+                            data-aos="fade-left"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-2' alt="" />
 
@@ -74,7 +98,11 @@ const Economics = () => {
                                 <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </div>
                         </div>
-                        <div className='col-12 d-flex my-2 zoom'>
+                        <div
+                            data-aos="fade-left"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-2' alt="" />
 

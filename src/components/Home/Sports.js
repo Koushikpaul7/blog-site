@@ -3,12 +3,17 @@ import './Last.css'
 const Sports = () => {
     return (
         <div className='container-fluid'>
-            <h3 className='title my-3 border-style'>
+            <h3
+                className='title my-3 border-style'>
                 <span className='me-5 '>Sports</span>
-                </h3>
+            </h3>
             <div className='row g-5'>
                 <div className='col-12 col-md-6 border-bottom px-5'>
-                    <div className='zoom'>
+                    <div
+                        data-aos="zoom-in-right"
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        className='zoom'>
                         <div className='imgContainer'>
 
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/psg-20230107115909.jpg" alt="" className='img-fluid' />
@@ -19,7 +24,11 @@ const Sports = () => {
                 </div>
                 <div className='col-12 col-md-6 border-bottom px-5'>
                     <div className='row g-5'>
-                        <div className='col-12 col-md-6 border-bottom zoom'>
+                        <div
+                            data-aos="zoom-out-right"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
 
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/shakib-ashrafee-20230107111634.jpg" className='img-fluid' alt="" />
@@ -27,21 +36,33 @@ const Sports = () => {
 
                             <p className='fs-4'>BPL clash among Sakib and Mashrafee</p>
                         </div>
-                        <div className='col-md-6 border-bottom zoom'>
+                        <div
+                            data-aos="zoom-out-left"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
 
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/ronaldo-20230107105050.jpg" className='img-fluid' alt="" />
                             </div>
                             <p className='fs-4'>Ronaldo Finished his training for his new team Al Nassr.</p>
                         </div>
-                        <div className='col-md-6 zoom'>
+                        <div
+                            data-aos="zoom-out-right"
+                            data-aos-duration='1000'
+                            data-aos-delay='300'
+                            className='col-md-6 zoom'>
                             <div className='imgContainer'>
 
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/vialli-20230107100726.jpg" className='img-fluid' alt="" />
                             </div>
                             <p className='fs-4'>Another legend passed away after Pele's death.</p>
                         </div>
-                        <div className='col-md-6 zoom'>
+                        <div
+                            data-aos="zoom-out-left"
+                            data-aos-duration='1000'
+                            data-aos-delay='400'
+                            className='col-md-6 zoom'>
                             <div className='imgContainer'>
 
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/tv-20230107095059.jpg" className='img-fluid' alt="" />

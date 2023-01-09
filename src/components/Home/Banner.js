@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
-        <div>
+        <div className='mt-5 pt-5'>
             <h1 className='text-center bg-danger p-2 fs-3 text-white mb-3'>Featured news</h1>
 
             <div className='container'>
@@ -10,11 +10,18 @@ const Banner = () => {
                     <div className='col-12 col-md-8'>
 
                         <div class="zoom">
-                            <div className='imgContainer'>
+                            <div
+                                data-aos="fade-down"
+                                className='imgContainer'>
 
-                                <img src="https://www.pointloma.edu/sites/default/files/styles/16_9_900w/public/images/USNews1.jpg?h=a1e1a043&itok=lTS4xciG" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
+                                <img
+                                    src="https://www.pointloma.edu/sites/default/files/styles/16_9_900w/public/images/USNews1.jpg?h=a1e1a043&itok=lTS4xciG" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
                             </div>
-                            <div className='mx-5 bg-light'>
+                            <div
+                                data-aos="fade-right"
+                                data-aos-duration='1000'
+                                data-aos-delay='200'
+                                className='mx-5 bg-light'>
                                 <p><span class="badge bg-primary">Education</span></p>
                                 <h3>Information regarding top universities.</h3>
                                 <div class=" text-muted ">
@@ -23,11 +30,19 @@ const Banner = () => {
                             </div>
                         </div>
                         <div class="mt-5 zoom">
-                            <div className='imgContainer'>
+                            <div
+                                data-aos="fade-up"
+                                data-aos-duration='1000'
+                                data-aos-delay='200'
+                                className='imgContainer'>
 
                                 <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
                             </div>
-                            <div className='mx-5 bg-light'>
+                            <div
+                                data-aos="fade-right"
+                                data-aos-duration='1000'
+                                data-aos-delay='200'
+                                className='mx-5 bg-light'>
                                 <p><span class="badge bg-primary">Motivation</span></p>
                                 <h3>Just one small positive thought in the morning can change your whole day</h3>
                                 <div class=" text-muted ">
@@ -39,7 +54,10 @@ const Banner = () => {
 
                     </div>
                     <div className='col-12 col-md-4'>
-                        <div>
+                        <div
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            data-aos="fade-left">
                             <div className='  text-center bg-secondary rounded'>
 
 
@@ -54,7 +72,11 @@ const Banner = () => {
                             </ul>
                         </div>
                         <div className='my-5'>
-                            <div class="card zoom">
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration='1000'
+                                data-aos-delay='200'
+                                class="card zoom">
                                 <div className='imgContainer'>
 
                                     <img src="https://www.chinadaily.com.cn/photo/images/attachement/jpg/site1/20170918/d8cb8a5155b01b297c550d.jpg" class="card-img-top img-fluid" alt="..." />
@@ -67,7 +89,11 @@ const Banner = () => {
                             </div>
                         </div>
                         <div className='my-5'>
-                            <div class="card zoom">
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration='1000'
+                                data-aos-delay='200'
+                                class="card zoom">
                                 <div className='imgContainer'>
 
                                     <img src="https://www.ncw.co.uk/wp-content/uploads/2020/06/Music-Club.jpg" class="card-img-top img-fluid" alt="..." />
@@ -98,7 +124,11 @@ const Banner = () => {
                 </div>
                 <div className='container-fluid mt-5'>
                     <div className='row'>
-                        <div className='col-12 col-md-3'>
+                        <div
+                            data-aos="zoom-in"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 col-md-3'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
@@ -109,7 +139,11 @@ const Banner = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-3'>
+                        <div
+                            data-aos="zoom-in"
+                            data-aos-duration='1000'
+                            data-aos-delay='300'
+                            className='col-12 col-md-3'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
@@ -120,7 +154,11 @@ const Banner = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-3'>
+                        <div
+                            data-aos="zoom-in"
+                            data-aos-duration='1000'
+                            data-aos-delay='400'
+                            className='col-12 col-md-3'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
@@ -131,7 +169,11 @@ const Banner = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-3'>
+                        <div
+                            data-aos="zoom-in"
+                            data-aos-duration='1000'
+                            data-aos-delay='500'
+                            className='col-12 col-md-3'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
