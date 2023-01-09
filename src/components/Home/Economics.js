@@ -3,7 +3,9 @@ import './Contact.css'
 const Economics = () => {
     return (
         <div className='container-fluid mt-4'>
-            <h2 className='text-info'>Economics</h2>
+            <h3 className='title my-3 border-style'>
+                <span className='me-5 '>Economics</span>
+                </h3>
             <div className='row'>
                 {/* first part */}
 
@@ -82,7 +84,7 @@ const Economics = () => {
                                 <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </div>
                         </div>
-                      
+
                     </div>
 
                 </div>

@@ -6,7 +6,9 @@ const Politics = () => {
 
             <div className='row '>
                 <div className='col-12 col-md-6 px-5 border-end'>
-                    <h2 className='text-warning mb-3'>Politics</h2>
+                <h3 className='title my-3 border-style'>
+                <span className='me-5 '>Politics</span>
+                </h3>
                     <div className='zoom'>
                         <div className='imgContainer'>
 
@@ -31,15 +33,15 @@ const Politics = () => {
                         </div>
                         <div className='col-6 col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
-                                
-                            <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/kader-12-20230106210152.jpg" className='img-fluid zoom' alt="" />
+
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/kader-12-20230106210152.jpg" className='img-fluid zoom' alt="" />
                             </div>
                             <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5>
                         </div>
                         <div className='col-6 col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
-                                
-                            <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/tuku-20230106195542.jpg" className='img-fluid zoom' alt="" />
+
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/tuku-20230106195542.jpg" className='img-fluid zoom' alt="" />
                             </div>
                             <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5>
                         </div>
@@ -47,40 +49,42 @@ const Politics = () => {
                 </div>
 
                 <div className='col-12 col-md-6 px-5'>
-                    <h2 className='text-warning mb-3'>Vote</h2>
-                  <div className='zoom'>
-                    <div className='imgContainer'>
-                        
-                  <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cc-20230101195129.jpg" className='img-fluid' alt="" />
+                <h3 className='title my-3 border-style'>
+                <span className='me-5 '>Vote</span>
+                </h3>
+                    <div className='zoom'>
+                        <div className='imgContainer'>
+
+                            <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cc-20230101195129.jpg" className='img-fluid' alt="" />
+                        </div>
+                        <h3 className='pb-3 border-bottom'>With the formula of Pallibandhu vote occasion can be done more effectively</h3>
                     </div>
-                    <h3 className='pb-3 border-bottom'>With the formula of Pallibandhu vote occasion can be done more effectively</h3>
-                  </div>
                     <div className='row g-5 mt-3'>
                         <div className='col-6 col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
-                                
-                            <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/election-commission-20230101180315.jpg" className='img-fluid zoom' alt="" />
+
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/election-commission-20230101180315.jpg" className='img-fluid zoom' alt="" />
                             </div>
                             <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5>
                         </div>
                         <div className='col-6 col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
-                                
-                            <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/lakshmipur-20221221110154.jpg " className='img-fluid zoom' alt="" />
+
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/lakshmipur-20221221110154.jpg " className='img-fluid zoom' alt="" />
                             </div>
                             <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5>
                         </div>
                         <div className='col-6 col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
-                                
-                            <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/4-e-20221213122859.jpg " className='img-fluid zoom' alt="" />
+
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/4-e-20221213122859.jpg " className='img-fluid zoom' alt="" />
                             </div>
                             <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5>
                         </div>
                         <div className='col-6 col-md-6 border-bottom zoom'>
                             <div className='imgContainer'>
-                                
-                            <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/electiom-2022-20221202135038.jpg" className='img-fluid zoom' alt="" />
+
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/electiom-2022-20221202135038.jpg" className='img-fluid zoom' alt="" />
                             </div>
                             <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h5>
                         </div>

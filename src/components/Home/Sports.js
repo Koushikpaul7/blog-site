@@ -1,9 +1,11 @@
 import React from 'react';
-
+import './Last.css'
 const Sports = () => {
     return (
         <div className='container-fluid'>
-            <h3 className='my-3 text-primary fw-bold'>Sports</h3>
+            <h3 className='title my-3 border-style'>
+                <span className='me-5 '>Sports</span>
+                </h3>
             <div className='row g-5'>
                 <div className='col-12 col-md-6 border-bottom px-5'>
                     <div className='zoom'>

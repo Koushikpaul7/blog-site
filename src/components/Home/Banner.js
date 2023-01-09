@@ -11,8 +11,8 @@ const Banner = () => {
 
                         <div class="zoom">
                             <div className='imgContainer'>
-                                
-                            <img src="https://www.pointloma.edu/sites/default/files/styles/16_9_900w/public/images/USNews1.jpg?h=a1e1a043&itok=lTS4xciG" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
+
+                                <img src="https://www.pointloma.edu/sites/default/files/styles/16_9_900w/public/images/USNews1.jpg?h=a1e1a043&itok=lTS4xciG" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
                             </div>
                             <div className='mx-5 bg-light'>
                                 <p><span class="badge bg-primary">Education</span></p>
@@ -24,8 +24,8 @@ const Banner = () => {
                         </div>
                         <div class="mt-5 zoom">
                             <div className='imgContainer'>
-                                
-                            <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
+
+                                <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
                             </div>
                             <div className='mx-5 bg-light'>
                                 <p><span class="badge bg-primary">Motivation</span></p>
@@ -56,21 +56,21 @@ const Banner = () => {
                         <div className='my-5'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
-                                    
-                                <img src="https://www.chinadaily.com.cn/photo/images/attachement/jpg/site1/20170918/d8cb8a5155b01b297c550d.jpg" class="card-img-top img-fluid" alt="..." />
+
+                                    <img src="https://www.chinadaily.com.cn/photo/images/attachement/jpg/site1/20170918/d8cb8a5155b01b297c550d.jpg" class="card-img-top img-fluid" alt="..." />
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Sports</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                   <Link to='/details'> <button class="btn btn-primary">Check it out</button></Link>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title d-flex">Sports</h5>
+                                    <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <Link to='/details'> <button class="btn btn-primary ">Check it out</button></Link>
                                 </div>
                             </div>
                         </div>
                         <div className='my-5'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
-                                    
-                                <img src="https://www.ncw.co.uk/wp-content/uploads/2020/06/Music-Club.jpg" class="card-img-top img-fluid" alt="..." />
+
+                                    <img src="https://www.ncw.co.uk/wp-content/uploads/2020/06/Music-Club.jpg" class="card-img-top img-fluid" alt="..." />
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Music</h5>
@@ -91,56 +91,56 @@ const Banner = () => {
                     </div>
                     <div className='col-12 col-md-6 zoom'>
                         <div className='imgContainer'>
-                            
-                        <img src="https://thumbs.dreamstime.com/b/latest-news-isolated-icon-megaphone-bullhorn-breaking-report-vector-info-announcement-tv-radio-broadcast-web-article-161471413.jpg" className='img-fluid' alt="" />
+
+                            <img src="https://thumbs.dreamstime.com/b/latest-news-isolated-icon-megaphone-bullhorn-breaking-report-vector-info-announcement-tv-radio-broadcast-web-article-161471413.jpg" className='img-fluid' alt="" />
                         </div>
                     </div>
                 </div>
                 <div className='container-fluid mt-5'>
                     <div className='row'>
                         <div className='col-12 col-md-3'>
-                        <div class="card zoom">
-                            <div className='imgContainer'>
-                                
-                        <img src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..."/>
+                            <div class="card zoom">
+                                <div className='imgContainer'>
+
+                                    <img src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                    </div>
                         </div>
                         <div className='col-12 col-md-3'>
-                        <div class="card zoom">
-                            <div className='imgContainer'>
-                                
-                        <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..."/>
+                            <div class="card zoom">
+                                <div className='imgContainer'>
+
+                                    <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                    </div>
                         </div>
                         <div className='col-12 col-md-3'>
-                        <div class="card zoom">
-                            <div className='imgContainer'>
-                                
-                        <img src="https://dt-media.dhakatribune.com/?width=400&height=280&cropratio=4:5&quality=50&image=en/uploads/2021/11/06/education-minister-jsc-exam-4-1572692715210-1572692715211.jpeg&anchor=top" class="card-img-top" alt="..."/>
+                            <div class="card zoom">
+                                <div className='imgContainer'>
+
+                                    <img src="https://dt-media.dhakatribune.com/?width=400&height=280&cropratio=4:5&quality=50&image=en/uploads/2021/11/06/education-minister-jsc-exam-4-1572692715210-1572692715211.jpeg&anchor=top" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                    </div>
                         </div>
                         <div className='col-12 col-md-3'>
-                        <div class="card zoom">
-                            <div className='imgContainer'>
-                                
-                        <img src="https://www.theindependentbd.com/assets/news_images/BD,ee.jpg" class="card-img-top" alt="..."/>
+                            <div class="card zoom">
+                                <div className='imgContainer'>
+
+                                    <img src="https://www.theindependentbd.com/assets/news_images/BD,ee.jpg" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                    </div>
                         </div>
                     </div>
                 </div>

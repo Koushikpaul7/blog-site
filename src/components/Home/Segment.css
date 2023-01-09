@@ -1,0 +1,11 @@
+.clickable{
+    background-color: white;
+}
+.clickable:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+    font-weight: bold;
+}
+p:hover{
+    color: blue;
+}

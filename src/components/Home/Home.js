@@ -6,16 +6,16 @@ import Sports from './Sports';
 import './Contact.css'
 import Economics from './Economics';
 const Home = () => {
-    return (
-        <div className='container-fluid'>
-          
-          <Banner></Banner>
-          <Sports></Sports>
-          <Politics></Politics>
-          <Economics></Economics>
-          <Contact></Contact>
-        </div>
-    );
+  return (
+    <div className='container-fluid'>
+
+      <Banner></Banner>
+      <Sports></Sports>
+      <Politics></Politics>
+      <Economics></Economics>
+      <Contact></Contact>
+    </div>
+  );
 };
 
 export default Home;
