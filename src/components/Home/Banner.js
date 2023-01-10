@@ -2,48 +2,50 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid bg-light'>
             <h1 className='text-center bg-danger p-2 fs-3 text-white mb-3'>Featured news</h1>
 
             <div className='container'>
-                <div className='row g-2'>
-                    <div className='col-12 col-md-8'>
+                <div className='row g-4'>
+                    <div className='col-12 col-md-8 '>
 
-                        <div class="zoom">
-                            <div
+                        
+                        <div className='zoom' style={{height:"300px"}}>
+                        <div
                                 data-aos="fade-down"
                                 className='imgContainer'>
 
                                 <img
-                                    src="https://www.pointloma.edu/sites/default/files/styles/16_9_900w/public/images/USNews1.jpg?h=a1e1a043&itok=lTS4xciG" class="card-img-top rounded mb-3" style={{ height: "300px" }} alt="..." />
+                                    src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/jaker-20230109151823.jpg" class=" rounded mb-3  "   alt="..." />
                             </div>
+                        </div>
                             <div
                                 data-aos="fade-right"
                                 data-aos-duration='1000'
                                 data-aos-delay='200'
-                                className='mx-5 bg-light'>
-                                <p><span class="badge bg-primary">Education</span></p>
+                                className=' bg-light'>
+                                <p><span class="badge bg-primary mt-3">Education</span></p>
                                 <h3>Information regarding top universities.</h3>
                                 <div class=" text-muted ">
                                     <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="mt-5 zoom">
+                        
+                        <div class="mt-5 " >
+                            <div className='zoom' style={{height:"300px"}}>
+                                
                             <div
                                 data-aos="fade-up"
                                 data-aos-duration='1000'
                                 data-aos-delay='200'
                                 className='imgContainer'>
 
-                                <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded  mb-3" style={{ height: "300px" }} alt="..." />
+                                <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded  mb-3"  alt="..." />
+                            </div>
                             </div>
                             <div
-                                data-aos="fade-right"
-                                data-aos-duration='1000'
-                                data-aos-delay='200'
-                                className='mx-5 bg-light'>
-                                <p><span class="badge bg-primary">Motivation</span></p>
+                                className=''>
+                                <p><span class="badge bg-primary mt-3">Motivation</span></p>
                                 <h3>Just one small positive thought in the morning can change your whole day</h3>
                                 <div class=" text-muted ">
                                     <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
@@ -108,21 +110,22 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
+            <img className='w-full d-flex mx-auto my-3' src="https://tpc.googlesyndication.com/simgad/437610714347656612" alt=""/>
             <div className='container'>
                 <div className='row g-5'>
-                    <div className='col-12 col-md-6 h-full'>
-                        <div className=' text-center'>
-                            <h1 className='mt-5 pt-5'>Get all the Latest news and blogs from here.</h1>
-                        </div>
+                    <div className='col-12 col-md-6 h-full d-flex text-center align-items-center'>
+                        
+                            <h1 className=''>Get all the Latest news and blogs from here.</h1>
+                       
                     </div>
-                    <div className='col-12 col-md-6 zoom'>
-                        <div className='imgContainer'>
+                    <div className='col-12 col-md-6'>
+                        
 
                             <img src="https://thumbs.dreamstime.com/b/latest-news-isolated-icon-megaphone-bullhorn-breaking-report-vector-info-announcement-tv-radio-broadcast-web-article-161471413.jpg" className='img-fluid' alt="" />
-                        </div>
+                        
                     </div>
                 </div>
-                <div className='container-fluid mt-5'>
+                <div className='container mt-5'>
                     <div className='row'>
                         <div
                             data-aos="zoom-in"

@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css'
 const Economics = () => {
     return (
-        <div className='container-fluid mt-4'>
+        <div className='container mt-4 '>
             <h3 className='title my-3 border-style'>
                 <span className='me-5 '>Economics</span>
             </h3>
@@ -55,13 +55,18 @@ const Economics = () => {
 
                 {/* middle part */}
                 <div
-                    data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="1200"
-                    className='col-12 col-md-6 zoom'>
-                    <div className='imgContainer'>
+                   
+                    className='col-12 col-md-6 overflow-hidden '>
+                        <div
+                         data-aos="fade-down"
+                         data-aos-easing="linear"
+                         data-aos-duration="1200" className='zoom '>
+                            
+                        
+                    <div className='imgContainer '>
 
                         <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/oil-cv-20230107153121.jpg" className='img-fluid ' alt="" />
+                    </div>
                     </div>
                     <h1>Lorem Ipsum is simply dummy text of the printing.</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

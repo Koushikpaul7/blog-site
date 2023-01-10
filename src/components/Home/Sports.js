@@ -2,19 +2,19 @@ import React from 'react';
 import './Last.css'
 const Sports = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container'>
             <h3
                 className='title my-3 border-style'>
-                <span className='me-5 '>Sports</span>
+                <span className=' '>Sports</span>
             </h3>
-            <div className='row g-5'>
-                <div className='col-12 col-md-6 border-bottom px-5'>
+            <div className='row g-2'>
+                <div className='col-12 col-md-6 border-bottom '>
                     <div
                         data-aos="zoom-in-right"
                         data-aos-duration='1000'
                         data-aos-delay='200'
                         className='zoom'>
-                        <div className='imgContainer'>
+                        <div className='imgContainer '>
 
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/psg-20230107115909.jpg" alt="" className='img-fluid' />
                         </div>

@@ -6,9 +6,7 @@
     cursor: pointer;
     font-weight: bold;
 }
-p:hover{
-    color: blue;
-}
+
 li:hover{
     color: blue;
     cursor: pointer;

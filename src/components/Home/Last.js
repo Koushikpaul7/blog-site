@@ -41,10 +41,10 @@ const Last = () => {
                             <p className='fw-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         </div>
                         <div
-                        data-aos="fade-up-left"
-                        data-aos-duration="1000"
-                        data-aos-delay="700"
-                        className='col-6 col-md-3 zoom'>
+                            data-aos="fade-up-left"
+                            data-aos-duration="1000"
+                            data-aos-delay="700"
+                            className='col-6 col-md-3 zoom'>
                             <div className='imgContainer'>
                                 <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/mamun-20230107001856.jpg" className='img-fluid' alt="" />
                             </div>
@@ -59,7 +59,11 @@ const Last = () => {
 
                             <p className='py-1 text-white fw-bold'>Breaking news</p>
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <ul
+                            data-aos="zoom-out-left"
+                            data-aos-duration="1000"
+                            data-aos-delay="700"
+                            class="list-group list-group-flush">
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Morbi leo risus</li>
