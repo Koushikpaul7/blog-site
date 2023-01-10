@@ -7,7 +7,7 @@ const Last = () => {
             <div className='row g-2'>
                 <div className=' col-12 col-md-8 '>
                     <h3 className='title my-3 border-style'>
-                        <span className='me-5'>Trending on blogs</span>
+                        <span className='me-5'>Related</span>
                     </h3>
                     <div className='row g-2'>
                         <div

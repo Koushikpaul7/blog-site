@@ -3,7 +3,7 @@ import './Segment.css'
 import './Last.css'
 const Segment = () => {
     return (
-        <div>
+        <div className='container'>
             <div className='border-style my-3 '>
                 <h3 className='title my-3 '>
                     <span className=''>Segments</span>

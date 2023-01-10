@@ -1,16 +1,21 @@
 import React from 'react';
 import './Categories.css'
+import Category from './Category';
 import './Contact.css'
 import Last from './Last';
 import Segment from './Segment';
+import { AiTwotoneHome } from 'react-icons/ai';
 const Categories = () => {
     return (
         <div className='container-fluid'>
-            <h1 className='my-5 text-center text-info'>Watch all the categories of news </h1>
             <h3 className='text-center text-white bg-danger py-2'> Categories</h3>
-            <div className='border-style fs-3 fw-bold my-3'>
-                <p className='ms-4'>All categories</p>
+            <div className='container'>
+            
+            <div className='border-style fs-6 fw-bold my-3'>
+                <p className='ms-4 d-flex align-items-center'><AiTwotoneHome className='me-2'/> National</p>
             </div>
+            </div>
+            <Category></Category>
             <div className='container'>
                 <div className='row  gx-4 gy-4'>
                     <div className='col-6  col-md-3 mb-2 zoom'>
@@ -149,10 +154,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-
+                        
                 </div>
 
             </div>
+           
             <Segment></Segment>
             <Last></Last>
         </div>

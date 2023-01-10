@@ -2,14 +2,14 @@ import React from 'react';
 import './Contact.css'
 const Economics = () => {
     return (
-        <div className='container mt-4 '>
+        <div className='container mt-4 overflow-hidden'>
             <h3 className='title my-3 border-style'>
                 <span className='me-5 '>Economics</span>
             </h3>
             <div className='row'>
                 {/* first part */}
 
-                <div className='col-12 col-md-3  '>
+                <div className='col-12 col-md-3'>
                     <div
                         data-aos="zoom-in-right"
                         data-aos-duration='1000'
@@ -33,7 +33,7 @@ const Economics = () => {
                             </div>
                             <div className='ms-3'>
 
-                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing  </p>
                             </div>
                         </div>
                         <div
@@ -47,7 +47,7 @@ const Economics = () => {
                             </div>
                             <div className='ms-3'>
 
-                                <p className='fs-6 '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. ...</p>
+                                <p className='fs-6 '>Lorem Ipsum is simply dummy text of the printing </p>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ const Economics = () => {
                 </div>
 
                 {/* Last part */}
-                <div className='col-12 col-md-3'>
+                <div className='col-12 col-md-3 overflow-hidden'>
                     <div
                         data-aos="zoom-in-right"
                         data-aos-duration='1000'
@@ -100,7 +100,7 @@ const Economics = () => {
                             </div>
                             <div className='ms-3'>
 
-                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing. </p>
                             </div>
                         </div>
                         <div
@@ -114,7 +114,7 @@ const Economics = () => {
                             </div>
                             <div className='ms-3'>
 
-                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing </p>
                             </div>
                         </div>
 

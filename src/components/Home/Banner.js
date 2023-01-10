@@ -10,13 +10,13 @@ const Banner = () => {
                     <div className='col-12 col-md-8 '>
 
                         
-                        <div className='zoom' style={{height:"300px"}}>
+                        <div className='zoom mb-3' style={{height:"200px"}}>
                         <div
                                 data-aos="fade-down"
                                 className='imgContainer'>
 
-                                <img
-                                    src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/jaker-20230109151823.jpg" class=" rounded mb-3  "   alt="..." />
+                               <Link to='/details'> <img
+                                    src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/jaker-20230109151823.jpg" class=" rounded card-img-top"   alt="..." /></Link>
                             </div>
                         </div>
                             <div
@@ -24,15 +24,15 @@ const Banner = () => {
                                 data-aos-duration='1000'
                                 data-aos-delay='200'
                                 className=' bg-light'>
-                                <p><span class="badge bg-primary mt-3">Education</span></p>
+                                <p><span class="badge bg-primary">Education</span></p>
                                 <h3>Information regarding top universities.</h3>
-                                <div class=" text-muted ">
-                                    <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                                <div class=" text-muted">
+                                    <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, </p>
                                 </div>
                             </div>
                         
                         <div class="mt-5 " >
-                            <div className='zoom' style={{height:"300px"}}>
+                            <div className='zoom' style={{height:"200px"}}>
                                 
                             <div
                                 data-aos="fade-up"
@@ -40,19 +40,72 @@ const Banner = () => {
                                 data-aos-delay='200'
                                 className='imgContainer'>
 
-                                <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded  mb-3"  alt="..." />
+                               <Link to='/details'> <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded  mb-2"  alt="..." /></Link>
                             </div>
                             </div>
                             <div
                                 className=''>
                                 <p><span class="badge bg-primary mt-3">Motivation</span></p>
                                 <h3>Just one small positive thought in the morning can change your whole day</h3>
-                                <div class=" text-muted ">
-                                    <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                                <div class=" text-muted mt-5">
+                                    <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, </p>
                                 </div>
                             </div>
                         </div>
+                       <div className='row g-2 mt-5'>
+                       <div
+                            data-aos="zoom-in"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 col-md-4'>
+                            <Link to='/categories' className='text-decoration-none text-dark'>
+                            <div class="card zoom ">
+                                <div className='imgContainer'>
 
+                                    <img style={{height:"200px"}} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                </div>
+                            </div>
+                            </Link>
+                        </div>
+                       <div
+                            data-aos="zoom-in"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 col-md-4'>
+                            <Link to='/categories' className='text-decoration-none text-dark'>
+                            <div class="card zoom ">
+                                <div className='imgContainer'>
+
+                                    <img style={{height:"200px"}} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                </div>
+                            </div>
+                            </Link>
+                        </div>
+                       <div
+                            data-aos="zoom-in"
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            className='col-12 col-md-4'>
+                            <Link to='/categories' className='text-decoration-none text-dark'>
+                            <div class="card zoom ">
+                                <div className='imgContainer'>
+
+                                    <img style={{height:"200px"}} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                </div>
+                            </div>
+                            </Link>
+                        </div>
+                      
+                       </div>
 
                     </div>
                     <div className='col-12 col-md-4'>
@@ -65,15 +118,17 @@ const Banner = () => {
 
                                 <p className='py-1 text-white fw-bold'>Others news</p>
                             </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Cras justo odio</li>
-                                <li class="list-group-item">Dapibus ac facilisis in</li>
-                                <li class="list-group-item">Morbi leo risus</li>
-                                <li class="list-group-item">Porta ac consectetur ac</li>
-                                <li class="list-group-item">Vestibulum at eros</li>
+                           <Link to='/details' className=' text-decoration-none'>
+                           <ul class="list-group list-group-flush ">
+                                <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{height:"50px",width:"120px"}} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt=""/> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{height:"50px",width:"120px"}} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt=""/> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{height:"50px",width:"120px"}} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt=""/> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{height:"50px",width:"120px"}} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt=""/> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                
                             </ul>
+                           </Link>
                         </div>
-                        <div className='my-5'>
+                        <div className='mt-2-5'>
                             <div
                                 data-aos="fade-left"
                                 data-aos-duration='1000'
@@ -110,7 +165,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <img className='w-full d-flex mx-auto my-3' src="https://tpc.googlesyndication.com/simgad/437610714347656612" alt=""/>
+            <img className='w-full d-flex mx-auto my-3 img-fluid' src="https://tpc.googlesyndication.com/simgad/437610714347656612" alt=""/>
             <div className='container'>
                 <div className='row g-5'>
                     <div className='col-12 col-md-6 h-full d-flex text-center align-items-center'>
@@ -132,7 +187,7 @@ const Banner = () => {
                             data-aos-duration='1000'
                             data-aos-delay='200'
                             className='col-12 col-md-3'>
-                            <div class="card zoom">
+                            <Link to="/categories" className='text-decoration-none'><div class="card zoom text-dark">
                                 <div className='imgContainer'>
 
                                     <img style={{height:"200px"}} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
@@ -140,13 +195,14 @@ const Banner = () => {
                                 <div class="card-body">
                                 <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
-                            </div>
+                            </div></Link>
                         </div>
                         <div
                             data-aos="zoom-in"
                             data-aos-duration='1000'
                             data-aos-delay='300'
                             className='col-12 col-md-3'>
+                                <Link to='/details' className='text-decoration-none text-dark'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
@@ -156,12 +212,14 @@ const Banner = () => {
                                 <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
                             </div>
+                                </Link>
                         </div>
                         <div
                             data-aos="zoom-in"
                             data-aos-duration='1000'
                             data-aos-delay='400'
                             className='col-12 col-md-3'>
+                                <Link to='/details' className='text-decoration-none text-dark'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
@@ -171,12 +229,14 @@ const Banner = () => {
                                 <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
                             </div>
+                                </Link>
                         </div>
                         <div
                             data-aos="zoom-in"
                             data-aos-duration='1000'
                             data-aos-delay='500'
                             className='col-12 col-md-3'>
+                                <Link to='/details' className='text-decoration-none text-dark'>
                             <div class="card zoom">
                                 <div className='imgContainer'>
 
@@ -186,6 +246,7 @@ const Banner = () => {
                                     <p class="card-text fw-bold">Some quick example text to build on the card title </p>
                                 </div>
                             </div>
+                                </Link>
                         </div>
                     </div>
                 </div>

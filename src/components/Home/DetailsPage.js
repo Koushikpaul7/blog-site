@@ -2,21 +2,26 @@ import React from 'react';
 import './Contact.css';
 import './Segment.css';
 import { AiOutlineDoubleRight } from 'react-icons/ai';
+import { AiOutlineClockCircle } from 'react-icons/ai';
+
 import Last from './Last';
 const DetailsPage = () => {
+    const tempDate = new Date();
+    const date = tempDate.getFullYear() + '-' + (tempDate.getMonth()+1) + '-' + tempDate.getDate() +' '+ tempDate.getHours()+':'+ tempDate.getMinutes()+':'+ tempDate.getSeconds();
+    const currDate ='Published  '+ date;
     return (
         <div>
-            <div className='container-fluid '>
+            <div className='container '>
                 <div className='row g-2'>
                     <div className='col-12 col-md-8 '>
-                        <div className='my-5 mx-4'
+                        <div className='my-5'
                             data-aos="fade-right"
                             data-aos-duration='1000'
                             data-aos-delay='200'
                         >
 
-                            <h3 className='text-info me-5'>Lorem Ipsum is simply dummy industry. </h3>
-                            <h1>Lorem Ipsum is simply dummy text of the printing . </h1>
+                            <h5 className='text-info me-5'>Lorem Ipsum is simply dummy industry. </h5>
+                            <h3>Lorem Ipsum is simply dummy text of the printing . </h3>
                         </div>
                     </div>
 
@@ -24,7 +29,7 @@ const DetailsPage = () => {
             </div>
             <div className='container'>
                 <div className='row g-2'>
-                    <div className='col-12 col-md-8 zoom'>
+                    <div className='col-12 col-md-8'>
                         <div className='imgContainer'
                             data-aos="fade-right"
                             data-aos-offset="300"
@@ -32,8 +37,9 @@ const DetailsPage = () => {
                             data-aos-duration='1000'
                             data-aos-delay='200'
                         >
-                            <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cr-7-20230106114916.jpg" className='img-fluid w-full' alt="" />
+                            <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cr-7-20230106114916.jpg" className='img-fluid w-full rounded' alt="" />
                         </div>
+                        <p className='my-3 fw-bold d-flex align-items-center'><AiOutlineClockCircle className='fs-4 me-2'/>{currDate}</p>
                         <h5
                             data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back"
@@ -72,6 +78,8 @@ const DetailsPage = () => {
                             <span
                                 className='me-5 '>Latest-Sports</span>
                         </h3>
+                        <div className='overflow-hidden'>
+                            
                         <ul
                             data-aos="fade-left"
                             data-aos-anchor="#example-anchor"
@@ -85,11 +93,14 @@ const DetailsPage = () => {
                             <li class="list-group-item">< AiOutlineDoubleRight /> A fourth item</li>
                             <li class="list-group-item">< AiOutlineDoubleRight /> And a fifth one</li>
                         </ul>
+                        </div>
                         <div className='row g-2'>
-                            <div className='col-12 col-md-12 zoom px-3 mt-5'>
+                            <div className='col-12 col-md-12 overflow-hidden px-3 mt-5'>
                                 <h4 className='title my-3 border-style'>
                                     <span className='me-5 '>Most Viewed</span>
                                 </h4>
+                                <div className='zoom'>
+                                    
                                 <div
                                     data-aos="fade-left"
                                     data-aos-duration='1000'
@@ -97,9 +108,10 @@ const DetailsPage = () => {
                                     className='imgContainer'>
                                     <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/tv-20230101101653.jpg" className='img-fluid' alt="" />
                                 </div>
-                                <p className='fs-5 fw-bold'>See Today's match live.</p>
+                                </div>
+                                <p className='fs-6 fw-bold'>See Today's match live.</p>
                             </div>
-                            <div className='col-6 col-md-6'>
+                            <div className='col-6 col-md-6 overflow-hidden'>
                                 <img
                                     data-aos="fade-up-right"
                                     data-aos-duration='1000'
@@ -107,7 +119,7 @@ const DetailsPage = () => {
                                     src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/dfgdf-20230106125109.jpg" className='img-fluid' alt="" />
                                 <p>Lorem Ipsum is simply dummy text of the printing . </p>
                             </div>
-                            <div className='col-6 col-md-6'>
+                            <div className='col-6 col-md-6 overflow-hidden'>
                                 <img
                                     data-aos="fade-up-left"
                                     data-aos-duration='1000'
@@ -115,7 +127,7 @@ const DetailsPage = () => {
                                     src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/bpl-20230106141305.jpg" className='img-fluid' alt="" />
                                 <p>Lorem Ipsum is simply dummy text of the printing . </p>
                             </div>
-                            <div className='col-6 col-md-6'>
+                            <div className='col-6 col-md-6 overflow-hidden'>
                                 <img
                                     data-aos="fade-down-left"
                                     data-aos-duration='1000'
@@ -123,7 +135,7 @@ const DetailsPage = () => {
                                     src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/mash-20230106165016.jpg" className='img-fluid' alt="" />
                                 <p>Lorem Ipsum is simply dummy text of the printing . </p>
                             </div>
-                            <div className='col-6 col-md-6'>
+                            <div className='col-6 col-md-6 overflow-hidden'>
                                 <img
                                     data-aos="fade-down-right"
                                     data-aos-duration='1000'
