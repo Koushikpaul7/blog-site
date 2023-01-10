@@ -18,7 +18,11 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='col-12 col-md-6'>
-                    <form>
+                    <form
+                     data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                    >
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />

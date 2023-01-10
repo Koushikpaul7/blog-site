@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
-        <div className='mt-5 pt-5'>
+        <div className='container-fluid'>
             <h1 className='text-center bg-danger p-2 fs-3 text-white mb-3'>Featured news</h1>
 
             <div className='container'>
-                <div className='row g-5'>
+                <div className='row g-2'>
                     <div className='col-12 col-md-8'>
 
                         <div class="zoom">
@@ -15,7 +15,7 @@ const Banner = () => {
                                 className='imgContainer'>
 
                                 <img
-                                    src="https://www.pointloma.edu/sites/default/files/styles/16_9_900w/public/images/USNews1.jpg?h=a1e1a043&itok=lTS4xciG" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
+                                    src="https://www.pointloma.edu/sites/default/files/styles/16_9_900w/public/images/USNews1.jpg?h=a1e1a043&itok=lTS4xciG" class="card-img-top rounded mb-3" style={{ height: "300px" }} alt="..." />
                             </div>
                             <div
                                 data-aos="fade-right"
@@ -36,7 +36,7 @@ const Banner = () => {
                                 data-aos-delay='200'
                                 className='imgContainer'>
 
-                                <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded img-fluid mb-3" style={{ height: "300px" }} alt="..." />
+                                <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded  mb-3" style={{ height: "300px" }} alt="..." />
                             </div>
                             <div
                                 data-aos="fade-right"
@@ -84,7 +84,7 @@ const Banner = () => {
                                 <div class="card-body text-center">
                                     <h5 class="card-title d-flex">Sports</h5>
                                     <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <Link to='/details'> <button class="btn btn-primary ">Check it out</button></Link>
+                                    <Link to='/details'> <button class="btn btn-primary ">See Details</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const Banner = () => {
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-start">Music</h5>
                                     <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <Link to='/details'> <button class="btn btn-primary">Check it out</button></Link>
+                                    <Link to='/details'> <button class="btn btn-primary">See Details</button></Link>
                                 </div>
                             </div>
                         </div>
