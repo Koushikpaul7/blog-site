@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className='col-12 col-md-8 '>
 
 
-                        <div className='zoom mb-3' style={{ height: "200px" }}>
+                        <div className='zoom mb-3' >
                             <div
                                 data-aos="fade-down"
                                 className='imgContainer'>
@@ -20,14 +20,11 @@ const Banner = () => {
                             </div>
                         </div>
                         <div
-                            data-aos="fade-right"
-                            data-aos-duration='1000'
-                            data-aos-delay='200'
                             className=' bg-light'>
-                            <p><span class="badge bg-primary">Education</span></p>
+                            <p><span class="badge bg-primary">BPL</span></p>
                             <Link to='/details' className='text-decoration-none text-dark'>
 
-                                <h3>Information regarding top universities.</h3>
+                                <h3>See all BPl updates here.</h3>
                             </Link>
                             <div class=" text-muted">
                                 <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, </p>
@@ -35,23 +32,22 @@ const Banner = () => {
                         </div>
 
                         <div class="mt-5 " >
-                            <div className='zoom' style={{ height: "200px" }}>
+                        <div className='zoom mb-3' >
+                            <div
+                                data-aos="fade-down"
+                                data-aos-once="false"
+                                className='imgContainer'>
 
-                                <div
-                                    data-aos="fade-up"
-                                    data-aos-duration='1000'
-                                    data-aos-delay='200'
-                                    className='imgContainer'>
-
-                                    <Link to='/details'> <img src="https://examstudyexpert.com/wp-content/uploads/2021/07/Study-motivation-Reasons-why-small-1024x724.jpg" class="card-img-top rounded  mb-2" alt="..." /></Link>
-                                </div>
+                                <Link to='/details'> <img
+                                    src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/pm-20230108172255.jpg" class=" rounded card-img-top" alt="..." /></Link>
                             </div>
+                        </div>
                             <div
                                 className=''>
-                                <p><span class="badge bg-primary mt-3">Motivation</span></p>
+                                <p><span class="badge bg-primary mt-3">National</span></p>
                                 <Link to='/details' className='text-decoration-none text-dark'>
 
-                                    <h3>Just one small positive thought in the morning can change your whole day</h3>
+                                    <h3>Get the latest national updates of the day</h3>
                                 </Link>
                                 <div class=" text-muted mt-5">
                                     <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, </p>
@@ -79,7 +75,7 @@ const Banner = () => {
                             <div
                                 data-aos="zoom-in"
                                 data-aos-duration='1000'
-                                data-aos-delay='200'
+                                data-aos-delay='100'
                                 className='col-12 col-md-4'>
                                 <Link to='/categories' className='text-decoration-none text-dark'>
                                     <div class="card zoom ">

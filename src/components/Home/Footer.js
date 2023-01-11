@@ -5,8 +5,9 @@ import { AiFillInstagram } from 'react-icons/ai';
 import { ImWhatsapp } from 'react-icons/im';
 import { BsTwitter } from 'react-icons/bs';
 const Footer = () => {
-  const today = new Date();
-  const year = today.getFullYear();
+  const date = new Date();
+    const year = date.getFullYear();
+    const currDate =year;
   return (
     <footer class=" background text-center text-lg-start ">
       <div className='container d-md-flex d-none d-md-block justify-content-between px-5 background align-items-center py-2'>
@@ -29,7 +30,7 @@ const Footer = () => {
               <h6 class="text-uppercase fw-bold mb-4">
                 BLOGS
               </h6>
-              <p className='justify'>
+              <p className=''>
               BLOGS is one of the popular Blog site. It has begun with commitment of fearless, investigative, informative and independent journalism. This online site has started to provide real time news updates with maximum use of modern technology.-a
               </p>
             </div>
@@ -74,7 +75,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
 
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
               <p><i class="fas fa-home me-3"></i> Dhaka, Mirpur, Bangladesh</p>

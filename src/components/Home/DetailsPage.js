@@ -22,6 +22,7 @@ const DetailsPage = () => {
 
                             <h5 className='text-info me-5'>Lorem Ipsum is simply dummy industry. </h5>
                             <h3>Lorem Ipsum is simply dummy text of the printing . </h3>
+                            <p className='my-3 fw-bold d-flex align-items-center text-muted'><AiOutlineClockCircle className='fs-4 me-2'/>{currDate}</p>
                         </div>
                     </div>
 
@@ -39,7 +40,7 @@ const DetailsPage = () => {
                         >
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cr-7-20230106114916.jpg" className='img-fluid w-full rounded' alt="" />
                         </div>
-                        <p className='my-3 fw-bold d-flex align-items-center'><AiOutlineClockCircle className='fs-4 me-2'/>{currDate}</p>
+                       <small><i className='text-muted'>Ronaldo is Ready for making new records in Arab</i></small>
                         <h5
                             data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back"
