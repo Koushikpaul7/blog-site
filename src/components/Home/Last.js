@@ -1,18 +1,18 @@
 import React from 'react';
-import './Last.css'
-import './Categories.css'
+
+import './Home.css'
 import { Link } from 'react-router-dom';
 const Last = () => {
     return (
         <div className='container mt-5 py-5 overflow-hidden'>
             <div className='row g-2'>
-                <div className=' col-12 col-md-8 '>
+                <div className=' col-12 col-md-12 '>
+                        <h3 className='title my-3 border-style py-3'>
                     <Link to='/' className='text-decoration-none text-dark'>
-                        <h3 className='title my-3 border-style'>
-                            <span className='me-5'>Related</span>
-                        </h3>
+                            <span className='effect'>Read more</span>
                     </Link>
-                    <div className='row g-2'>
+                        </h3>
+                    <div className='row g-2 line'>
                         <div
                             data-aos="fade-up-right"
                             data-aos-duration="1000"
@@ -24,7 +24,7 @@ const Last = () => {
                                 </Link>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fw-bold'>Use of smartphones are increasing more then ever</p>
+                                <p className='fw-bold effect'>Use of smartphones are increasing more then ever</p>
                             </Link>
                         </div>
                         <div
@@ -38,7 +38,7 @@ const Last = () => {
                                 </Link>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fw-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p className='fw-bold effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </Link>
                         </div>
                         <div
@@ -52,7 +52,7 @@ const Last = () => {
                                 </Link>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fw-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p className='fw-bold effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </Link>
                         </div>
                         <div
@@ -66,12 +66,12 @@ const Last = () => {
                                 </Link>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fw-bold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <p className='fw-bold effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             </Link>
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 mt-3'>
+                {/* <div className='col-12 col-md-4 mt-3'>
                     <div>
                         <div className='  text-center bg-danger rounded'>
 
@@ -92,7 +92,7 @@ const Last = () => {
                         </ul>
                                 </Link>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 

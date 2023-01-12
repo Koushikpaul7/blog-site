@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './Home.css';
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import { ImWhatsapp } from 'react-icons/im';
@@ -10,7 +10,7 @@ const Footer = () => {
     const currDate =year;
   return (
     <footer class=" background text-center text-lg-start ">
-      <div className='container d-md-flex d-none d-md-block justify-content-between px-5 background align-items-center py-2'>
+      <div className='container d-md-flex d-none d-md-block justify-content-between  background align-items-center py-2'>
         <div className='pb-2'>
           <img src="https://www.onblastblog.com/wp-content/uploads/2017/08/blogger-logo.jpg" style={{ width: "90px", height: "30px" }} alt="" />
         </div>
@@ -25,13 +25,13 @@ const Footer = () => {
 
           <div class="row py-2">
 
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="col-md-3 col-lg-4 col-xl-3  mb-4">
 
               <h6 class="text-uppercase fw-bold mb-4">
                 BLOGS
               </h6>
               <p className=''>
-              BLOGS is one of the popular Blog site. It has begun with commitment of fearless, investigative, informative and independent journalism. This online site has started to provide real time news updates with maximum use of modern technology.-a
+              BLOGS is one of the popular Blog site. It has begun with commitment of fearless, investigative, informative and independent journalism. This online site has started to provide real time news updates with maximum use of modern technology.
               </p>
             </div>
 
@@ -75,16 +75,21 @@ const Footer = () => {
               </p>
             </div>
 
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0  ">
 
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i class="fas fa-home me-3"></i> Dhaka, Mirpur, Bangladesh</p>
-              <p>
-                <i class="fas fa-envelope me-3"></i>
+              <div className='row'>
+              <address>
+               Dhaka, Mirpur, Bangladesh
+              </address>
+              <a className='text-decoration-none text-dark my-3' href="mailto: BLOGS@example.com" >
                 BLOGS@example.com
-              </p>
-              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </a>
+              
+              <a className='text-decoration-none text-dark' href="tel:+ 01 234 567 88"> + 01 234 567 88</a>
+              <a className='text-decoration-none text-dark'href="tel:+ 01 234 567 89"> + 01 234 567 89</a>
+              </div>
+             
             </div>
 
           </div>
@@ -95,17 +100,20 @@ const Footer = () => {
         <div className=' d-none d-lg-block border-bottom ms-4'>
           <h6>Get connected with us on social networks:</h6>
         </div>
-        <div>
+        <div className='me-md-4 mx-sm-auto mt-2 mt-md-0'>
           <BsFacebook className='me-5 fs-3' />
           <AiFillInstagram className='me-5 fs-3' />
           <ImWhatsapp className='me-5 fs-3' />
-          <BsTwitter className='me-5 fs-3' />
+          <BsTwitter className=' me-2 fs-3' />
         </div>
       </section>
 
       <div class="text-center p-3 fw-bold" style={{ backgroundColor: " rgba(0, 0, 0, 0.2)" }}>
-        © {year} Copyright:
+        <p>
+
+        &copy; {year} Copyright:
         <span class="text-dark">BLOGS</span>
+        </p>
       </div>
 
     </footer>

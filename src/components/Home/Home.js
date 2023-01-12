@@ -3,7 +3,7 @@ import Banner from './Banner';
 import Contact from './Contact';
 import Politics from './Politics';
 import Sports from './Sports';
-import './Contact.css'
+import './Home.css'
 import Economics from './Economics';
 const Home = () => {
   return (

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Home.css'
 const Banner = () => {
     return (
-        <div className='container-fluid bg-light'>
-            <h1 className='text-center bg-danger p-2 fs-3 text-white mb-3'>Featured news</h1>
+        <div className='container bg-light mb-3'>
+            <h1 className='text-center  bg-danger p-2 fs-3 text-white mb-3'>Featured news</h1>
 
             <div className='container'>
                 <div className='row g-4'>
@@ -24,18 +25,16 @@ const Banner = () => {
                             <p><span class="badge bg-primary">BPL</span></p>
                             <Link to='/details' className='text-decoration-none text-dark'>
 
-                                <h3>See all BPl updates here.</h3>
+                                <h3 className='effect d-inline'>See all BPl updates here.</h3>
                             </Link>
                             <div class=" text-muted">
                                 <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, </p>
                             </div>
                         </div>
 
-                        <div class="mt-5 " >
+                        <div class="mt-4 " >
                         <div className='zoom mb-3' >
                             <div
-                                data-aos="fade-down"
-                                data-aos-once="false"
                                 className='imgContainer'>
 
                                 <Link to='/details'> <img
@@ -44,12 +43,12 @@ const Banner = () => {
                         </div>
                             <div
                                 className=''>
-                                <p><span class="badge bg-primary mt-3">National</span></p>
+                                <p><span class="badge bg-primary mt-2">National</span></p>
                                 <Link to='/details' className='text-decoration-none text-dark'>
 
-                                    <h3>Get the latest national updates of the day</h3>
+                                    <h3 className='effect d-inline'>Get the latest national updates of the day</h3>
                                 </Link>
-                                <div class=" text-muted mt-5">
+                                <div class=" text-muted mt-2">
                                     <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, </p>
                                 </div>
                             </div>
@@ -62,12 +61,12 @@ const Banner = () => {
                                 className='col-12 col-md-4'>
                                 <Link to='/categories' className='text-decoration-none text-dark'>
                                     <div class="card zoom ">
-                                        <div className='imgContainer'>
+                                        <div className='imgContainer fix-ratio'>
 
-                                            <img style={{ height: "200px" }} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                            <img src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
                                         </div>
                                         <div class="card-body">
-                                            <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                            <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
                                         </div>
                                     </div>
                                 </Link>
@@ -79,12 +78,12 @@ const Banner = () => {
                                 className='col-12 col-md-4'>
                                 <Link to='/categories' className='text-decoration-none text-dark'>
                                     <div class="card zoom ">
-                                        <div className='imgContainer'>
+                                        <div className='imgContainer fix-ratio'>
 
-                                            <img style={{ height: "200px" }} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                            <img src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
                                         </div>
                                         <div class="card-body">
-                                            <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                            <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
                                         </div>
                                     </div>
                                 </Link>
@@ -96,12 +95,12 @@ const Banner = () => {
                                 className='col-12 col-md-4'>
                                 <Link to='/categories' className='text-decoration-none text-dark'>
                                     <div class="card zoom ">
-                                        <div className='imgContainer'>
+                                        <div className='imgContainer fix-ratio'>
 
-                                            <img style={{ height: "200px" }} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                            <img src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
                                         </div>
                                         <div class="card-body">
-                                            <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                            <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
                                         </div>
                                     </div>
                                 </Link>
@@ -110,7 +109,7 @@ const Banner = () => {
                         </div>
 
                     </div>
-                    <div className='col-12 col-md-4'>
+                    <div className='col-12 col-md-4 '>
                         <div
                             data-aos-duration='1000'
                             data-aos-delay='200'
@@ -122,26 +121,42 @@ const Banner = () => {
                             </div>
                             <Link to='/details' className=' text-decoration-none'>
                                 <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{ height: "50px", width: "120px" }} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" /> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{ height: "50px", width: "120px" }} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" /> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{ height: "50px", width: "120px" }} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" /> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center"><img style={{ height: "50px", width: "120px" }} className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" /> <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                        <div className='imgContainer'>
+                                    <img  className='img-fluid fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
+                                    </div>
+                                     <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                            
+                                            <div className='imgContainer '>
+                                    <img  className='img-fluid fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" />
+                                    </div> <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                        <div className='imgContainer'>
+                                            
+                                        <img className='img-fluid me-2 fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" />
+                                        </div>
+                                         <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p>
+                                         </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                        <div className='imgContainer'>
+                                            
+                                        <img className='img-fluid me-2 fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" />
+                                        </div>
+                                        <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
 
                                 </ul>
                             </Link>
                         </div>
-                        <div className='mt-2-5'>
+                        <div className='mt-5'>
                             <div
-                                data-aos="fade-left"
-                                data-aos-duration='1000'
-                                data-aos-delay='200'
                                 class="card zoom">
                                 <div className='imgContainer'>
 
                                     <img src="https://www.chinadaily.com.cn/photo/images/attachement/jpg/site1/20170918/d8cb8a5155b01b297c550d.jpg" class="card-img-top img-fluid" alt="..." />
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title d-flex">Sports</h5>
+                                    <h5 class="card-title d-flex ">Sports</h5>
                                     <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <Link to='/details'> <button class="btn btn-primary ">See Details</button></Link>
                                 </div>
@@ -149,9 +164,6 @@ const Banner = () => {
                         </div>
                         <div className='my-5'>
                             <div
-                                data-aos="fade-left"
-                                data-aos-duration='1000'
-                                data-aos-delay='200'
                                 class="card zoom">
                                 <div className='imgContainer'>
 
@@ -167,8 +179,8 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <img className='w-full d-flex mx-auto my-3 img-fluid' src="https://tpc.googlesyndication.com/simgad/437610714347656612" alt="" />
-            <div className='container'>
+            
+            <div className='container mt-5'>
                 <div className='row g-5'>
                     <div className='col-12 col-md-6 h-full d-flex text-center align-items-center'>
 
@@ -182,20 +194,20 @@ const Banner = () => {
 
                     </div>
                 </div>
-                <div className='container mt-5'>
-                    <div className='row'>
+                <div className='container ps-0 my-2'>
+                    <div className='row '>
                         <div
                             data-aos="zoom-in"
                             data-aos-duration='1000'
                             data-aos-delay='200'
-                            className='col-12 col-md-3'>
+                            className='col-12 col-md-3 '>
                             <Link to="/categories" className='text-decoration-none'><div class="card zoom text-dark">
-                                <div className='imgContainer'>
+                                <div className='imgContainer fix-ratio'>
 
-                                    <img style={{ height: "200px" }} src="https://imageresizer.static9.net.au/w6Yx8ZTn79TwJFWhSWTm5qaRmdQ=/360x203/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F6913865d-372a-42a7-83b4-b3fb2a8f2c19" class="card-img-top" alt="..." />
+                                    <img  src="https://www.dailyjanakantha.com/media/imgAll/2023January/SM/13-2301110805-SM.jpg" class="card-img-top" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                    <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
                                 </div>
                             </div></Link>
                         </div>
@@ -206,12 +218,12 @@ const Banner = () => {
                             className='col-12 col-md-3'>
                             <Link to='/details' className='text-decoration-none text-dark'>
                                 <div class="card zoom">
-                                    <div className='imgContainer'>
+                                    <div className='imgContainer fix-ratio'>
 
-                                        <img style={{ height: "200px" }} src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..." />
+                                        <img  src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..." />
                                     </div>
                                     <div class="card-body">
-                                        <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                        <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
                                     </div>
                                 </div>
                             </Link>
@@ -223,12 +235,12 @@ const Banner = () => {
                             className='col-12 col-md-3'>
                             <Link to='/details' className='text-decoration-none text-dark'>
                                 <div class="card zoom">
-                                    <div className='imgContainer'>
+                                    <div className='imgContainer fix-ratio'>
 
-                                        <img style={{ height: "200px" }} src="https://dt-media.dhakatribune.com/?width=400&height=280&cropratio=4:5&quality=50&image=en/uploads/2021/11/06/education-minister-jsc-exam-4-1572692715210-1572692715211.jpeg&anchor=top" class="card-img-top" alt="..." />
+                                        <img src="https://www.dailyjanakantha.com/media/imgAll/2023January/SM/13-2301110805-SM.jpg" class="card-img-top" alt="..." />
                                     </div>
                                     <div class="card-body">
-                                        <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                        <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
                                     </div>
                                 </div>
                             </Link>
@@ -240,12 +252,12 @@ const Banner = () => {
                             className='col-12 col-md-3'>
                             <Link to='/details' className='text-decoration-none text-dark'>
                                 <div class="card zoom">
-                                    <div className='imgContainer'>
+                                    <div className='imgContainer fix-ratio'>
 
-                                        <img style={{ height: "200px" }} src="https://www.theindependentbd.com/assets/news_images/BD,ee.jpg" class="card-img-top" alt="..." />
+                                        <img src="https://www.theindependentbd.com/assets/news_images/BD,ee.jpg" class="card-img-top" alt="..." />
                                     </div>
                                     <div class="card-body">
-                                        <p class="card-text fw-bold">Some quick example text to build on the card title </p>
+                                        <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
                                     </div>
                                 </div>
                             </Link>

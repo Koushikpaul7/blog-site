@@ -1,12 +1,14 @@
 import React from 'react';
-import './Segment.css'
-import './Last.css'
+import './Home.css'
+
+import { Link } from 'react-router-dom';
 const Segment = () => {
     return (
         <div className='container'>
             <div className='border-style my-3 '>
                 <h3 className='title my-3 '>
-                    <span className=''>Segments</span>
+                    <Link to='/categories'>
+                    <span className='effect'>Segments</span></Link>
                 </h3>
             </div>
             <div

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Contact.css'
+import './Home.css'
 const Economics = () => {
     return (
         <div className='container mt-4 overflow-hidden'>
@@ -9,14 +9,14 @@ const Economics = () => {
                     <span className='me-5 '>Economics</span>
                 </h3>
             </Link>
-            <div className='row'>
+            <div className='row line'>
                 {/* first part */}
 
                 <div className='col-12 col-md-3'>
                     <div
-                        data-aos="zoom-in-right"
-                        data-aos-duration='1000'
-                        data-aos-delay='200'
+                       data-aos="zoom-in"
+                       data-aos-duration='1000'
+                       data-aos-delay='300'
                         className='zoom'>
 
                         <div className='imgContainer'>
@@ -25,14 +25,14 @@ const Economics = () => {
                             </Link>
                         </div>
                     </div>
-                    <Link to='/details' className='text-decoration-none text-dark'>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <Link to='/details' className='text-decoration-none text-dark effect'>
+                        <p className='effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     </Link>
                     <div className='row gap-2'>
                         <div
-                            data-aos="fade-right"
-                            data-aos-duration='1000'
-                            data-aos-delay='200'
+                             data-aos="zoom-in"
+                             data-aos-duration='1000'
+                             data-aos-delay='300'
                             className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
@@ -42,14 +42,14 @@ const Economics = () => {
                             </div>
                             <div className='ms-3'>
                                 <Link to='/details' className='text-decoration-none text-dark'>
-                                    <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing  </p>
+                                    <p className='fs-6 effect'>Lorem Ipsum is simply dummy text of the printing  </p>
                                 </Link>
                             </div>
                         </div>
                         <div
-                            data-aos="fade-right"
+                            data-aos="zoom-in"
                             data-aos-duration='1000'
-                            data-aos-delay='200'
+                            data-aos-delay='300'
                             className='col-12 d-flex zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
@@ -58,7 +58,7 @@ const Economics = () => {
                             </div>
                             <div className='ms-3'>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fs-6 '>Lorem Ipsum is simply dummy text of the printing </p>
+                                <p className='fs-6 effect'>Lorem Ipsum is simply dummy text of the printing </p>
                                 </Link>
                             </div>
                         </div>
@@ -70,9 +70,9 @@ const Economics = () => {
 
                     className='col-12 col-md-6 overflow-hidden '>
                     <div
-                        data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1200" className='zoom '>
+                         data-aos="zoom-in"
+                         data-aos-duration='1000'
+                         data-aos-delay='300' className='zoom '>
 
 
                         <div className='imgContainer '>
@@ -82,7 +82,7 @@ const Economics = () => {
                         </div>
                     </div>
                     <Link to='/details' className='text-decoration-none text-dark'>
-                    <h1>Lorem Ipsum is simply dummy text of the printing.</h1>
+                    <h1 className='effect'>Lorem Ipsum is simply dummy text of the printing.</h1>
                                 </Link>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -93,9 +93,9 @@ const Economics = () => {
                 {/* Last part */}
                 <div className='col-12 col-md-3 overflow-hidden'>
                     <div
-                        data-aos="zoom-in-right"
+                        data-aos="zoom-in"
                         data-aos-duration='1000'
-                        data-aos-delay='200'
+                        data-aos-delay='300'
                         className='zoom'>
                         <div className='imgContainer'>
                             <Link to="/details">
@@ -103,14 +103,14 @@ const Economics = () => {
                             </Link>
                         </div>
                     </div>
-                    <Link to='/details' className='text-decoration-none text-dark'>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <Link to='/details' className='text-decoration-none text-dark '>
+                    <p className='effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                                 </Link>
                     <div className='row gap-2'>
                         <div
-                            data-aos="fade-left"
-                            data-aos-duration='1000'
-                            data-aos-delay='200'
+                             data-aos="zoom-in"
+                             data-aos-duration='1000'
+                             data-aos-delay='300'
                             className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
@@ -120,14 +120,14 @@ const Economics = () => {
                             </div>
                             <div className='ms-3'>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing. </p>
+                                <p className='fs-6 effect'>Lorem Ipsum is simply dummy text of the printing. </p>
                                 </Link>
                             </div>
                         </div>
                         <div
-                            data-aos="fade-left"
-                            data-aos-duration='1000'
-                            data-aos-delay='200'
+                             data-aos="zoom-in"
+                             data-aos-duration='1000'
+                             data-aos-delay='300'
                             className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
@@ -136,8 +136,8 @@ const Economics = () => {
 
                             </div>
                             <div className='ms-3'>
-                            <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fs-6'>Lorem Ipsum is simply dummy text of the printing </p>
+                            <Link to='/details#detail' className='text-decoration-none text-dark'>
+                                <p className='fs-6 effect'>Test test is simply dummy text of the printing </p>
                                 </Link>
                             </div>
                         </div>
