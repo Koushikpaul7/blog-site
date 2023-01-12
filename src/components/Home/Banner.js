@@ -121,7 +121,7 @@ const Banner = () => {
 
                                 <p className='py-1 text-white fw-bold'>Others news</p>
                             </div>
-                            <Link to='#' className=' text-decoration-none'>
+                            <Link to='/details' className=' text-decoration-none'>
                                 <ul
                                 data-aos="fade-left"
                                 data-aos-anchor="#example-anchor"
@@ -129,7 +129,7 @@ const Banner = () => {
                                 data-aos-duration='1000'
                                 data-aos-delay='200'
                                 class="list-group list-group-flush mt-3">
-                                <Link to='#' className=' text-decoration-none '>
+                                <Link to='/details' className=' text-decoration-none '>
                                 <ul class="list-group list-group-flush ">
                                     <li class="list-group-item d-flex px-0 line zoom">
                                         <div className='imgContainer fix-ratio-others me-2'>
