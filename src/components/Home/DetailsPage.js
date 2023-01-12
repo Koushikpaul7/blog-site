@@ -1,9 +1,12 @@
 import React from 'react';
 import './Home.css';
-import { AiOutlineDoubleRight } from 'react-icons/ai';
+import { BsFacebook } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
 import { AiOutlineClockCircle } from 'react-icons/ai';
 
 import Last from './Last';
+import { Link } from 'react-router-dom';
 const DetailsPage = () => {
 
     const d = Date(Date.now());
@@ -14,11 +17,24 @@ const DetailsPage = () => {
             <div id='detail' className='container '>
                 <div className='row g-2'>
                     <div  className='col-12 col-md-8  '>
-                        <div className='my-5'>
+                        <div className='mT-5'>
 
                             <h5 className='text-info me-5'>Lorem Ipsum is simply dummy industry. </h5>
                             <h3>Lorem Ipsum is simply dummy text of the printing . </h3>
                             <p className='my-3 fw-bold d-flex align-items-center text-muted'><AiOutlineClockCircle className='fs-4 me-2' />Published: {a.slice(0, 16)}</p>
+                           <div className='d-flex justify-content-between mx-2 text-muted'>
+                           <div>
+                           <p>Author: Mark Boucher</p>
+                           </div>
+                            <div>
+
+                             Share on:
+                           <Link to='#' className='text-decoration-none text-dark mx-4'> <BsFacebook className=' '/></Link>
+                           <Link to='#' className='text-decoration-none text-dark'> <BsInstagram className=''/></Link>
+                           <Link to='#' className='text-decoration-none text-dark mx-4'> <BsTwitter className=' '/></Link>
+                            
+                            </div>
+                           </div>
                         </div>
                     </div>
                     <div className='col-12 col-md-4 d-flex align-items-center'>
@@ -31,11 +47,6 @@ const DetailsPage = () => {
                 <div className='row g-2'>
                     <div className='col-12 col-md-8 overflow-hidden'>
                         <div className='imgContainer'
-                            data-aos="fade-right"
-                            data-aos-offset="300"
-                            data-aos-easing="ease-in-sine"
-                            data-aos-duration='1000'
-                            data-aos-delay='200'
                         >
                             <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cr-7-20230106114916.jpg" className='img-fluid w-full rounded' alt="" />
                         </div>
@@ -87,7 +98,8 @@ const DetailsPage = () => {
                                 data-aos-duration='1000'
                                 data-aos-delay='200'
                                 class="list-group list-group-flush mt-3">
-                                    <ul class="list-group list-group-flush ">
+                                   <Link to='#' className='text-decoration-none text-dark'> 
+                                   <ul class="list-group list-group-flush ">
                                     <li class="list-group-item d-flex justify-content-between align-items-center zoom">
                                         <div className='imgContainer fix-ratio'>
                                     <img  className='img-fluid' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
@@ -112,7 +124,7 @@ const DetailsPage = () => {
                                         </div>
                                         <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
 
-                                </ul>
+                                </ul></Link>
                             </ul>
                         </div>
                         <div className='row g-2 line'>

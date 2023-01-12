@@ -4,7 +4,7 @@ import './Home.css'
 const Banner = () => {
     return (
         <div className='container bg-light mb-3'>
-            <h1 className='text-center  bg-danger p-2 fs-3 text-white mb-3'>Featured news</h1>
+            <h1 className='text-center  bg-danger py-2 fs-3 text-white mb-3'>Featured news</h1>
 
             <div className='container'>
                 <div className='row g-4'>
@@ -121,24 +121,24 @@ const Banner = () => {
                             </div>
                             <Link to='/details' className=' text-decoration-none'>
                                 <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                    <li class="list-group-item d-flex justify-content-between  zoom">
                                         <div className='imgContainer'>
                                     <img  className='img-fluid fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
                                     </div>
                                      <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                    <li class="list-group-item d-flex justify-content-between zoom">
                                             
                                             <div className='imgContainer '>
                                     <img  className='img-fluid fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" />
                                     </div> <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                    <li class="list-group-item d-flex justify-content-between  zoom">
                                         <div className='imgContainer'>
                                             
                                         <img className='img-fluid me-2 fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" />
                                         </div>
                                          <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p>
                                          </li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
+                                    <li class="list-group-item d-flex justify-content-between  zoom">
                                         <div className='imgContainer'>
                                             
                                         <img className='img-fluid me-2 fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" />

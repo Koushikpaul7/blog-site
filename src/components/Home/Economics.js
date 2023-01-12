@@ -12,7 +12,7 @@ const Economics = () => {
             <div className='row line'>
                 {/* first part */}
 
-                <div className='col-12 col-md-3'>
+                <div className='col-12 col-md-3 '>
                     <div
                        data-aos="zoom-in"
                        data-aos-duration='1000'
@@ -21,12 +21,12 @@ const Economics = () => {
 
                         <div className='imgContainer'>
                             <Link to="/details">
-                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/samson-h-chowdhury-20230107142137.jpg" className='img-fluid  ' alt="" />
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/samson-h-chowdhury-20230107142137.jpg" className='img-fluid ' alt="" />
                             </Link>
                         </div>
                     </div>
                     <Link to='/details' className='text-decoration-none text-dark effect'>
-                        <p className='effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <p className='effect mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     </Link>
                     <div className='row gap-2'>
                         <div
@@ -36,7 +36,7 @@ const Economics = () => {
                             className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
-                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-2' alt="" />
+                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-1' alt="" />
                                 </Link>
 
                             </div>
@@ -53,7 +53,7 @@ const Economics = () => {
                             className='col-12 d-flex zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
-                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid  mt-2' alt="" />
+                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-1' alt="" />
                                 </Link>
                             </div>
                             <div className='ms-3'>
@@ -72,7 +72,7 @@ const Economics = () => {
                     <div
                          data-aos="zoom-in"
                          data-aos-duration='1000'
-                         data-aos-delay='300' className='zoom '>
+                         data-aos-delay='300' className='zoom line'>
 
 
                         <div className='imgContainer '>
@@ -82,12 +82,10 @@ const Economics = () => {
                         </div>
                     </div>
                     <Link to='/details' className='text-decoration-none text-dark'>
-                    <h1 className='effect'>Lorem Ipsum is simply dummy text of the printing.</h1>
+                    <h3 className='effect'>Lorem Ipsum is simply dummy text of the printing.</h3>
                                 </Link>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to
-                        make a type specimen book. </p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the </p>
                 </div>
 
                 {/* Last part */}
@@ -104,7 +102,7 @@ const Economics = () => {
                         </div>
                     </div>
                     <Link to='/details' className='text-decoration-none text-dark '>
-                    <p className='effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <p className='effect mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                                 </Link>
                     <div className='row gap-2'>
                         <div
@@ -114,7 +112,7 @@ const Economics = () => {
                             className='col-12 d-flex my-2 zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
-                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-2' alt="" />
+                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-1' alt="" />
                                 </Link>
 
                             </div>
@@ -128,15 +126,15 @@ const Economics = () => {
                              data-aos="zoom-in"
                              data-aos-duration='1000'
                              data-aos-delay='300'
-                            className='col-12 d-flex my-2 zoom'>
+                            className='col-12 d-flex zoom'>
                             <div className='imgContainer'>
                                 <Link to="/details">
-                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-2' alt="" />
+                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-1' alt="" />
                                 </Link>
 
                             </div>
                             <div className='ms-3'>
-                            <Link to='/details#detail' className='text-decoration-none text-dark'>
+                            <Link to='/details' className='text-decoration-none text-dark'>
                                 <p className='fs-6 effect'>Test test is simply dummy text of the printing </p>
                                 </Link>
                             </div>

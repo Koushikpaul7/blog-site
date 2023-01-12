@@ -7,7 +7,7 @@ import { AiTwotoneHome } from 'react-icons/ai';
 const Categories = () => {
     return (
         <div className='container-fluid'>
-            <div className='container'>
+            <div className='container '>
             
             <div className='border-style fs-6 fw-bold my-3'>
                 <p className='ms-4 d-flex align-items-center'><AiTwotoneHome className='me-2'/> National</p>
@@ -15,8 +15,8 @@ const Categories = () => {
             </div>
             <Category></Category>
            
-            <Segment></Segment>
-            <Last></Last>
+            {/* <Segment></Segment>
+            <Last></Last> */}
         </div>
     );
 };

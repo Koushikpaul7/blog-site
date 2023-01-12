@@ -12,7 +12,7 @@ const Sports = () => {
                     <span className=' effect'>Sports</span>
             </Link>
                 </h3>
-            <div className='row g-2'>
+            <div className='row g-2 line'>
                 <div className='col-12 col-md-6 border-bottom '>
                     <div className=' '>
                         <div data-aos="zoom-in-right"
