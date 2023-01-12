@@ -22,7 +22,7 @@ const Category = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 mt-md-3 '>
+                <div className='col-12 col-md-4 mt-md-3'>
                     <img className='mx-md-5' src="https://tpc.googlesyndication.com/simgad/3182520416671585917" alt="" />
                 </div>
             </div>

@@ -16,28 +16,28 @@ const DetailsPage = () => {
         <div>
             <div id='detail' className='container '>
                 <div className='row g-2'>
-                    <div  className='col-12 col-md-8  '>
+                    <div className='col-12 col-md-8  '>
                         <div className='mT-5'>
 
                             <h5 className='text-info me-5'>Lorem Ipsum is simply dummy industry. </h5>
                             <h3>Lorem Ipsum is simply dummy text of the printing . </h3>
                             <p className='my-3 fw-bold d-flex align-items-center text-muted'><AiOutlineClockCircle className='fs-4 me-2' />Published: {a.slice(0, 16)}</p>
-                           <div className='d-flex justify-content-between mx-2 text-muted'>
-                           <div>
-                           <p>Author: Mark Boucher</p>
-                           </div>
-                            <div>
+                            <div className='d-flex justify-content-between mx-2 text-muted'>
+                                <div>
+                                    <p>Author: <Link to='#' className='text-decoration-none text-muted fw-bold' >Mark Boucher</Link></p>
+                                </div>
+                                <div>
 
-                             Share on:
-                           <Link to='#' className='text-decoration-none text-dark mx-4'> <BsFacebook className=' '/></Link>
-                           <Link to='#' className='text-decoration-none text-dark'> <BsInstagram className=''/></Link>
-                           <Link to='#' className='text-decoration-none text-dark mx-4'> <BsTwitter className=' '/></Link>
-                            
+                                    Share on:
+                                    <Link to='#' className='text-decoration-none text-dark mx-4'> <BsFacebook className=' ' /></Link>
+                                    <Link to='#' className='text-decoration-none text-dark'> <BsInstagram className='' /></Link>
+                                    <Link to='#' className='text-decoration-none text-dark mx-4'> <BsTwitter className=' ' /></Link>
+
+                                </div>
                             </div>
-                           </div>
                         </div>
                     </div>
-                    <div className='col-12 col-md-4 d-flex align-items-center'>
+                    <div className='col-12 col-md-4 d-flex align-items-center '>
                         <img src="https://tpc.googlesyndication.com/simgad/391452917098588740" alt="" />
                     </div>
 
@@ -89,7 +89,7 @@ const DetailsPage = () => {
                             <span
                                 className='me-5 '>Latest-Sports</span>
                         </h3>
-                        <div className='overflow-hidden line'>
+                        <div className='overflow-hidden '>
 
                             <ul
                                 data-aos="fade-left"
@@ -98,37 +98,39 @@ const DetailsPage = () => {
                                 data-aos-duration='1000'
                                 data-aos-delay='200'
                                 class="list-group list-group-flush mt-3">
-                                   <Link to='#' className='text-decoration-none text-dark'> 
-                                   <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
-                                        <div className='imgContainer fix-ratio'>
-                                    <img  className='img-fluid' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
-                                    </div>
-                                     <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
-                                            
-                                            <div className='imgContainer fix-ratio'>
-                                    <img className='img-fluid' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" />
-                                    </div> <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
-                                        <div className='imgContainer fix-ratio'>
-                                            
-                                        <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" />
+                                <Link to='#' className=' text-decoration-none'>
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item d-flex line zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
+                                            <img className='img-fluid ' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
                                         </div>
-                                         <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p>
-                                         </li>
-                                    <li class="list-group-item d-flex justify-content-between align-items-center zoom">
-                                        <div className='imgContainer fix-ratio'>
-                                            
-                                        <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" />
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                    <li class="list-group-item d-flex line zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
+                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" />
                                         </div>
-                                        <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                    
+                                    <li class="list-group-item d-flex line  zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
 
-                                </ul></Link>
+                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" />
+                                        </div>
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p>
+                                    </li>
+                                    <li class="list-group-item d-flex line zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
+
+                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" />
+                                        </div>
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+
+                                </ul>
+                            </Link>
                             </ul>
                         </div>
                         <div className='row g-2 line'>
-                            <div className='col-12 col-md-12 overflow-hidden px-3 mt-5'>
+                            <div className='col-12 col-md-12 overflow-hidden  mt-5'>
                                 <h4 className='title my-3 border-style'>
                                     <span className='me-5 '>Most Viewed</span>
                                 </h4>

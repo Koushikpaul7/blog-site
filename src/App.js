@@ -21,7 +21,7 @@ function App() {
     return children
   }
   useEffect(()=>{
-    AOS.init()
+    AOS.init({once: true});
 
   },[])
   return (

@@ -33,14 +33,14 @@ const Banner = () => {
                         </div>
 
                         <div class="mt-4 " >
-                        <div className='zoom mb-3' >
-                            <div
-                                className='imgContainer'>
+                            <div className='zoom mb-3' >
+                                <div
+                                    className='imgContainer'>
 
-                                <Link to='/details'> <img
-                                    src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/pm-20230108172255.jpg" class=" rounded card-img-top" alt="..." /></Link>
+                                    <Link to='/details'> <img
+                                        src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/pm-20230108172255.jpg" class=" rounded card-img-top" alt="..." /></Link>
+                                </div>
                             </div>
-                        </div>
                             <div
                                 className=''>
                                 <p><span class="badge bg-primary mt-2">National</span></p>
@@ -58,6 +58,8 @@ const Banner = () => {
                                 data-aos="zoom-in"
                                 data-aos-duration='1000'
                                 data-aos-delay='200'
+                                aos-init
+                                aos-animate
                                 className='col-12 col-md-4'>
                                 <Link to='/categories' className='text-decoration-none text-dark'>
                                     <div class="card zoom ">
@@ -119,67 +121,91 @@ const Banner = () => {
 
                                 <p className='py-1 text-white fw-bold'>Others news</p>
                             </div>
-                            <Link to='/details' className=' text-decoration-none'>
+                            <Link to='#' className=' text-decoration-none'>
+                                <ul
+                                data-aos="fade-left"
+                                data-aos-anchor="#example-anchor"
+                                data-aos-offset="500"
+                                data-aos-duration='1000'
+                                data-aos-delay='200'
+                                class="list-group list-group-flush mt-3">
+                                <Link to='#' className=' text-decoration-none '>
                                 <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item d-flex justify-content-between  zoom">
-                                        <div className='imgContainer'>
-                                    <img  className='img-fluid fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
-                                    </div>
-                                     <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between zoom">
-                                            
-                                            <div className='imgContainer '>
-                                    <img  className='img-fluid fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" />
-                                    </div> <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
-                                    <li class="list-group-item d-flex justify-content-between  zoom">
-                                        <div className='imgContainer'>
-                                            
-                                        <img className='img-fluid me-2 fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" />
+                                    <li class="list-group-item d-flex px-0 line zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
+                                            <img className='img-fluid ' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
                                         </div>
-                                         <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p>
-                                         </li>
-                                    <li class="list-group-item d-flex justify-content-between  zoom">
-                                        <div className='imgContainer'>
-                                            
-                                        <img className='img-fluid me-2 fix-ratio' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" />
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                        <li class="list-group-item d-flex px-0 line zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
+                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" />
                                         </div>
-                                        <p className='fw-normal fs-6 ms-3'>Cras justo odio Dapibus facilisis</p></li>
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
+                                    
+                                    <li class="list-group-item d-flex line px-0 zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
+
+                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" />
+                                        </div>
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p>
+                                    </li>
+                                    <li class="list-group-item d-flex line px-0 zoom">
+                                        <div className='imgContainer fix-ratio-others me-2'>
+
+                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" />
+                                        </div>
+                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
 
                                 </ul>
+                            </Link>
+                            </ul>
                             </Link>
                         </div>
                         <div className='mt-5'>
                             <div
-                                class="card zoom">
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            data-aos="fade-left"
+                                class="card zoom ">
                                 <div className='imgContainer'>
 
-                                    <img src="https://www.chinadaily.com.cn/photo/images/attachement/jpg/site1/20170918/d8cb8a5155b01b297c550d.jpg" class="card-img-top img-fluid" alt="..." />
+                                    <Link to='/details'>
+                                        <img src="https://www.chinadaily.com.cn/photo/images/attachement/jpg/site1/20170918/d8cb8a5155b01b297c550d.jpg" class="card-img-top img-fluid" alt="..." /></Link>
                                 </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title d-flex ">Sports</h5>
-                                    <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <Link to='/details'> <button class="btn btn-primary ">See Details</button></Link>
-                                </div>
+                                <Link to='/details' className='text-decoration-none text-dark'>
+                                    <div 
+                                     
+                                    class="card-body text-center">
+                                        <h5 class="card-title d-flex effect">Sports</h5>
+                                        <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                         <div className='my-5'>
                             <div
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
+                            data-aos="fade-left"
                                 class="card zoom">
                                 <div className='imgContainer'>
-
-                                    <img src="https://www.ncw.co.uk/wp-content/uploads/2020/06/Music-Club.jpg" class="card-img-top img-fluid" alt="..." />
+                                    <Link to='/details'>
+                                        <img src="https://www.ncw.co.uk/wp-content/uploads/2020/06/Music-Club.jpg" class="card-img-top img-fluid" alt="..." />
+                                    </Link>
                                 </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-start">Music</h5>
-                                    <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <Link to='/details'> <button class="btn btn-primary">See Details</button></Link>
-                                </div>
+                                <Link to='/details' className='text-decoration-none text-dark'>
+                                    <div 
+                                    class="card-body text-center">
+                                        <h5 class="card-title text-start effect">Music</h5>
+                                        <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div className='container mt-5'>
                 <div className='row g-5'>
                     <div className='col-12 col-md-6 h-full d-flex text-center align-items-center'>
@@ -204,7 +230,7 @@ const Banner = () => {
                             <Link to="/categories" className='text-decoration-none'><div class="card zoom text-dark">
                                 <div className='imgContainer fix-ratio'>
 
-                                    <img  src="https://www.dailyjanakantha.com/media/imgAll/2023January/SM/13-2301110805-SM.jpg" class="card-img-top" alt="..." />
+                                    <img src="https://www.dailyjanakantha.com/media/imgAll/2023January/SM/13-2301110805-SM.jpg" class="card-img-top" alt="..." />
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
@@ -220,7 +246,7 @@ const Banner = () => {
                                 <div class="card zoom">
                                     <div className='imgContainer fix-ratio'>
 
-                                        <img  src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..." />
+                                        <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/09/karnataka-bandh-1601276118.jpg" class="card-img-top" alt="..." />
                                     </div>
                                     <div class="card-body">
                                         <p class="card-text fw-bold effect">Some quick example text to build on the card title </p>
