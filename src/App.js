@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
-import Navbar from './components/Home/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import Categories from './components/Home/Categories';
-import Footer from './components/Home/Footer';
-import DetailsPage from './components/Home/DetailsPage';
+import Categories from './components/Category/Categories';
+import Footer from './components/Footer/Footer';
+import DetailsPage from './components/Details/DetailsPage';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect, useLayoutEffect } from 'react';
@@ -27,8 +26,8 @@ function App() {
   return (
     <div>
      <Wrapper>
-     <Navbar></Navbar>
-        <Routes>
+     <Navbar />
+        <Routes >
           <Route path='/' element={<Home></Home>}>
           
           </Route>

@@ -1,4 +1,7 @@
-
+/* Navigation alignment */
+.align p{
+margin-bottom: 0;
+}
 /* category */
 .border-style{
     border-left: 3px solid red;
@@ -14,8 +17,11 @@
     border-width: 2px;
     border-style: solid;
 }
+.effect{
+  color: #000!important;
+}
 .effect:hover{
-    color: rgb(69, 224, 224);
+    color: rgb(69, 224, 224) !important;
 }
 .extra p:hover{
     color: rgb(69, 224, 224);
@@ -46,7 +52,7 @@
     
   }
   
-  /* Last */
+  /* Last       line styles */
   .title{
     position: relative;
     overflow: hidden;
@@ -136,5 +142,28 @@ li p:hover{
     
     padding-right: 5px;
   }
-  /* cat-row */
+ /* spacing for economy broken pic */
+  .pic-gap{
+    margin-top: auto;
+  }
+
+.list-group-item{
+  padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 800px) {
+    .pic-gap {
+      margin-top: 20px;
+    }
+  }
+
   

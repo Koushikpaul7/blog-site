@@ -7,7 +7,7 @@ import './Home.css'
 import Economics from './Economics';
 const Home = () => {
   return (
-    <div className=''>
+    <div>
 
       <Banner></Banner>
       <Sports></Sports>

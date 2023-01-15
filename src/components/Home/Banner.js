@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import OtherNews from '../Others/OtherNews';
 import './Home.css'
 const Banner = () => {
     return (
-        <div className='container bg-light mb-3'>
-            <h1 className='text-center  bg-danger py-2 fs-3 text-white mb-3'>Featured news</h1>
+        <div className='container mb-3'>
+            <h3
+                    className='title my-3 border-style'>
+                    <span className=' effect'>Featured</span>
+                </h3>
 
-            <div className='container'>
+            <div className=''>
                 <div className='row g-4'>
                     <div className='col-12 col-md-8 '>
 
@@ -53,7 +57,7 @@ const Banner = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='row g-2 mt-5'>
+                        <div className='row g-4 mt-3'>
                             <div
                                 data-aos="zoom-in"
                                 data-aos-duration='1000'
@@ -111,56 +115,11 @@ const Banner = () => {
                         </div>
 
                     </div>
+
+                    {/* other news */}
                     <div className='col-12 col-md-4 '>
-                        <div
-                            data-aos-duration='1000'
-                            data-aos-delay='200'
-                            data-aos="fade-left">
-                            <div className='  text-center bg-secondary rounded'>
-
-
-                                <p className='py-1 text-white fw-bold'>Others news</p>
-                            </div>
-                            <Link to='/details' className=' text-decoration-none'>
-                                <ul
-                                data-aos="fade-left"
-                                data-aos-anchor="#example-anchor"
-                                data-aos-offset="500"
-                                data-aos-duration='1000'
-                                data-aos-delay='200'
-                                class="list-group list-group-flush mt-3">
-                                <Link to='/details' className=' text-decoration-none '>
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item d-flex px-0 line zoom">
-                                        <div className='imgContainer fix-ratio-others me-2'>
-                                            <img className='img-fluid ' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/qader-20230110102002.jpg" alt="" />
-                                        </div>
-                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
-                                        <li class="list-group-item d-flex px-0 line zoom">
-                                        <div className='imgContainer fix-ratio-others me-2'>
-                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/photo-cold-20230110111127.jpg" alt="" />
-                                        </div>
-                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
-                                    
-                                    <li class="list-group-item d-flex line px-0 zoom">
-                                        <div className='imgContainer fix-ratio-others me-2'>
-
-                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/naoga--20230110110432.jpg" alt="" />
-                                        </div>
-                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p>
-                                    </li>
-                                    <li class="list-group-item d-flex line px-0 zoom">
-                                        <div className='imgContainer fix-ratio-others me-2'>
-
-                                            <img className='img-fluid me-2' src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/panchagarh-20230110105204.jpg" alt="" />
-                                        </div>
-                                        <p className='fw-normal fs-6'>Cras justo odio Dapibus facilisis</p></li>
-
-                                </ul>
-                            </Link>
-                            </ul>
-                            </Link>
-                        </div>
+                        
+                        
                         <div className='mt-5'>
                             <div
                             data-aos-duration='1000'
@@ -202,11 +161,16 @@ const Banner = () => {
                                 </Link>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div className='container mt-5'>
+                        <OtherNews/>
+
+                        {/* others side */}
+
+
+                    </div>
+
+
+                    <div className=' mt-3'>
                 <div className='row g-5'>
                     <div className='col-12 col-md-6 h-full d-flex text-center align-items-center'>
 
@@ -220,8 +184,8 @@ const Banner = () => {
 
                     </div>
                 </div>
-                <div className='container ps-0 my-2'>
-                    <div className='row '>
+                <div className='ps-0 my-2'>
+                    <div className='row g-3'>
                         <div
                             data-aos="zoom-in"
                             data-aos-duration='1000'
@@ -291,6 +255,12 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
+
+
+                </div>
+            </div>
+
+           
         </div>
     );
 };

@@ -1,12 +1,10 @@
 import React from 'react';
-import './Home.css'
+import '../Home/Home.css'
 import Category from './Category';
-import Last from './Last';
-import Segment from './Segment';
 import { AiTwotoneHome } from 'react-icons/ai';
 const Categories = () => {
     return (
-        <div className='container-fluid'>
+        <div className=''>
             <div className='container '>
             
             <div className='border-style fs-6 fw-bold my-3'>

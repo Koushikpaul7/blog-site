@@ -1,11 +1,12 @@
 import React from 'react';
 import './Home.css'
-import Last from './Last';
 const Contact = () => {
     return (
         <div className='container my-5'>
-            <h3 className='text-center mt-5 mb-4 bg-danger py-2 text-white'>Contact us</h3>
-            <div className='container'>
+          <h3 className='title my-3 border-style'>
+                    <span className='me-5 effect'>Contact Us</span>
+                </h3>
+            <div className=''>
             <div className='row g-5'>
                 <div
                     data-aos="fade-up"

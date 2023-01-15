@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Sports = () => {
 
     return (
-        <div className='container bg-light'>
+        <div className='container my-4'>
                 <h3
                     className='title my-3 border-style'>
             <Link to='/categories' className='text-decoration-none text-dark'>
@@ -12,7 +12,7 @@ const Sports = () => {
                     <span className=' effect'>Sports</span>
             </Link>
                 </h3>
-            <div className='row g-2 line'>
+            <div className='row g-4 line'>
                 <div className='col-12 col-md-6 border-bottom '>
                     <div className=' '>
                         <div data-aos="zoom-in-right"
@@ -33,8 +33,8 @@ const Sports = () => {
                         <p className='fs-5 text-muted my-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-6 border-bottom px-5'>
-                    <div className='row g-5'>
+                <div className='col-12 col-md-6 border-bottom ps-3 '>
+                    <div className='row  g-4 '>
                         <div
                             className='col-12 col-md-6 border-bottom overflow-hidden'>
                             <div data-aos="zoom-in-right"
@@ -48,7 +48,7 @@ const Sports = () => {
                                 </div>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fs-5 effect'>BPL clash among Sakib and Mashrafee</p>
+                                <p className='fs-6 effect '>BPL clash among Sakib and Mashrafee</p>
                             </Link>
                         </div>
                         <div
@@ -64,7 +64,7 @@ const Sports = () => {
                                 </div>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                            <p className='fs-5 effect'>Ronaldo Finished his training for his new team Al Nassr.</p>
+                            <p className='fs-6 effect'>Ronaldo Finished his training for his new team Al Nassr.</p>
                                 </Link>
                         </div>
 
@@ -81,7 +81,7 @@ const Sports = () => {
                                 </div>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                            <p className='fs-5 effect'>Another legend passed away after Pele's death.</p>
+                            <p className='fs-6 effect'>Another legend passed away after Pele's death.</p>
                                 </Link>
                         </div>
                         <div
@@ -96,7 +96,7 @@ const Sports = () => {
                                 </div>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                            <p className='fs-5 effect'>See all the live matches from BPL on your Tv.</p>
+                            <p className='fs-6 effect'>See all the live matches from BPL on your Tv.</p>
                                 </Link>
                         </div>
                     </div>

@@ -4,13 +4,13 @@ import './Home.css'
 import { Link } from 'react-router-dom';
 const Last = () => {
     return (
-        <div className='container mt-5 py-5 overflow-hidden'>
+        <div className='container py-md-5 overflow-hidden'>
             <div className='row g-2'>
                 <div className=' col-12 col-md-12 '>
                         <h3 className='title my-3 border-style py-3'>
-                    <Link to='/' className='text-decoration-none text-dark'>
-                            <span className='effect'>Read more</span>
-                    </Link>
+              
+                            <span className=''>Read more</span>
+                    
                         </h3>
                     <div className='row g-2 line'>
                         <div
@@ -71,28 +71,6 @@ const Last = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className='col-12 col-md-4 mt-3'>
-                    <div>
-                        <div className='  text-center bg-danger rounded'>
-
-
-                            <p className='py-1 text-white fw-bold'>Breaking news</p>
-                        </div>
-                        <Link to='/' className='text-decoration-none text-dark'>
-                        <ul
-                            data-aos="zoom-out-left"
-                            data-aos-duration="1000"
-                            data-aos-delay="700"
-                            class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                                </Link>
-                    </div>
-                </div> */}
 
             </div>
 
