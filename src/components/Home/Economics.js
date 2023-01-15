@@ -69,7 +69,7 @@ const Economics = () => {
                 {/* middle part */}
                 <div
 
-                    className='col-12 col-md-6 overflow-hidden '>
+                    className='col-12 col-md-6 overflow-hidden'>
                     <div
                          data-aos="zoom-in"
                          data-aos-duration='1000'
@@ -85,7 +85,7 @@ const Economics = () => {
                     <Link to='/details' className='text-decoration-none text-dark'>
                     <h3 className='effect'>Lorem Ipsum is simply dummy text of the printing.</h3>
                                 </Link>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p className='text-muted'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the </p>
                 </div>
 
@@ -110,7 +110,7 @@ const Economics = () => {
                              data-aos="zoom-in"
                              data-aos-duration='1000'
                              data-aos-delay='300'
-                            className='col-12 d-flex my-2 zoom'>
+                            className='col-12 d-flex my-2 zoom '>
                                 <Link to="/details">
                             <div className='imgContainer'>
                                     <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-1' alt="" />
@@ -127,18 +127,16 @@ const Economics = () => {
                              data-aos="zoom-in"
                              data-aos-duration='1000'
                              data-aos-delay='300'
-                            className='col-12 d-flex'>
+                            className='col-12 d-flex my-2 zoom'>
                                 <Link to="/details">
-                                <div className='zoom'>
                             <div className='imgContainer'>
                                     <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/warm1-20230107152001.jpg" className='img-fluid mt-1' alt="" />
                             </div>
-                                </div>
                                 </Link>
 
                             <div className='ms-3'>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                                <p className='fs-6 effect'>Test test is simply dummy text of the printing </p>
+                                <p className='fs-6 effect'>Lorem Ipsum is simply dummy text of the printing. </p>
                                 </Link>
                             </div>
                         </div>
