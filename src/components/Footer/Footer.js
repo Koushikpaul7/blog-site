@@ -6,8 +6,8 @@ import { ImWhatsapp } from 'react-icons/im';
 import { BsTwitter } from 'react-icons/bs';
 const Footer = () => {
   const date = new Date();
-    const year = date.getFullYear();
-    
+  const year = date.getFullYear();
+
   return (
     <footer class=" background text-center text-lg-start ">
       <div className='container d-md-flex d-none d-md-block justify-content-between  background align-items-center py-2'>
@@ -25,22 +25,22 @@ const Footer = () => {
 
           <div class="row py-2">
 
-            <div class="col-md-3 col-lg-4 col-xl-3 ">
+            <div class="col-md-3 col-lg-4 col-xl-3 d-none d-md-block ">
 
               <h6 class="text-uppercase fw-bold mb-4">
                 BLOGS
               </h6>
               <p className=''>
-              BLOGS is one of the popular Blog site. It has begun with commitment of fearless, investigative, informative and independent journalism. 
+                BLOGS is one of the popular Blog site. It has begun with commitment of fearless, investigative, informative and independent journalism.
               </p>
             </div>
 
-            <div class="col-md-2 col-lg-2 col-xl-2 ">
+            <div class="col-md-2 col-lg-2 col-xl-2 d-none d-md-block">
 
               <h6 class="text-uppercase fw-bold mb-4">
                 Products
               </h6>
-             
+
               <p>
                 <a href="#!" class="text-reset text-decoration-none">React</a>
               </p>
@@ -56,7 +56,7 @@ const Footer = () => {
               <h6 class="text-uppercase fw-bold mb-4">
                 Useful links
               </h6>
-             
+
               <p>
                 <a href="#!" class="text-reset text-decoration-none">Settings</a>
               </p>
@@ -69,17 +69,17 @@ const Footer = () => {
 
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
               <div className='row'>
-              <address>
-               Dhaka, Mirpur, Bangladesh
-              </address>
-              <a className='text-decoration-none text-dark my-3' href="mailto: BLOGS@example.com" >
-                BLOGS@example.com
-              </a>
-              
-              <a className='text-decoration-none text-dark' href="tel:+ 01 234 567 88"> + 01 234 567 88</a>
-              <a className='text-decoration-none text-dark'href="tel:+ 01 234 567 89"> + 01 234 567 89</a>
+                <address>
+                  Dhaka, Mirpur, Bangladesh
+                </address>
+                <a className='text-decoration-none text-dark my-3' href="mailto: BLOGS@example.com" >
+                  BLOGS@example.com
+                </a>
+
+                <a className='text-decoration-none text-dark' href="tel:+ 01 234 567 88"> + 01 234 567 88</a>
+                <a className='text-decoration-none text-dark' href="tel:+ 01 234 567 89"> + 01 234 567 89</a>
               </div>
-             
+
             </div>
 
           </div>
@@ -101,8 +101,8 @@ const Footer = () => {
       <div class="text-center p-3 fw-bold" style={{ backgroundColor: " rgba(0, 0, 0, 0.2)" }}>
         <p>
 
-        &copy; {year} Copyright:
-        <span class="text-dark">BLOGS</span>
+          &copy; {year} Copyright:
+          <span class="text-dark">BLOGS</span>
         </p>
       </div>
 

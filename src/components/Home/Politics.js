@@ -7,11 +7,11 @@ const Politics = () => {
 
             <div className='row g-3 g-md-5'>
                 <div className='col-12 col-md-6  border-end'>
-                        <h3 className='title my-3 border-style'>
-                    <Link to='/categories' className='text-decoration-none text-dark'>
+                    <h3 className='title my-3 border-style'>
+                        <Link to='/categories' className='text-decoration-none text-dark'>
                             <span className='effect'>Politics</span>
-                    </Link>
-                        </h3>
+                        </Link>
+                    </h3>
                     <div
                         className='zoom'>
                         <div className='imgContainer'>
@@ -20,7 +20,7 @@ const Politics = () => {
                             </Link>
                         </div>
                         <Link to='/details' className='text-decoration-none text-dark'>
-                            <h3 className='pb-2 border-bottom mt-2 effect'>A general meeting was placed at uttara for the development</h3>
+                            <h5 className='pb-2 border-bottom mt-2 effect'>A general meeting was placed at uttara for the development</h5>
                         </Link>
                     </div>
                     <div className='row g-md-4 g-3 mt-1'>
@@ -31,7 +31,7 @@ const Politics = () => {
                             className='col-12 col-md-6  zoom '>
                             <div className='imgContainer fix-ratio'>
                                 <Link to="/details">
-                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/goashor-20230107131942.jpg" className='img-fluid zoom' alt="" />
+                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/goashor-20230107131942.jpg" className='img-fluid ' alt="" />
                                 </Link>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark '>
@@ -95,7 +95,7 @@ const Politics = () => {
                             <Link to="/details">  <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/cc-20230101195129.jpg" className='img-fluid' alt="" /></Link>
                         </div>
                         <Link to='/details' className='text-decoration-none text-dark'>
-                            <h3 className='pb-2 border-bottom mt-2 effect'>With the formula of Pallibandhu vote occasion can be done more effectively</h3>
+                            <h5 className='pb-2 border-bottom mt-2 effect'>With the formula of Pallibandhu vote occasion can be done more effectively</h5>
                         </Link>
                     </div>
                     <div className='row g-md-4 g-3 mt-1'>
@@ -152,8 +152,8 @@ const Politics = () => {
                                 </Link>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                            <p className='border-bottom pb-3 mt-2 effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                </Link>
+                                <p className='border-bottom pb-3 mt-2 effect'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            </Link>
                         </div>
 
 

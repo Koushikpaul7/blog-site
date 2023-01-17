@@ -5,13 +5,13 @@ const Sports = () => {
 
     return (
         <div className='container my-4'>
-                <h3
-                    className='title my-3 border-style'>
-            <Link to='/categories' className='text-decoration-none text-dark'>
+            <h3
+                className='title my-3 border-style'>
+                <Link to='/categories' className='text-decoration-none text-dark'>
 
                     <span className=' effect'>Sports</span>
-            </Link>
-                </h3>
+                </Link>
+            </h3>
             <div className='row g-4 line'>
                 <div className='col-12 col-md-6 border-bottom '>
                     <div className=' '>
@@ -33,13 +33,13 @@ const Sports = () => {
                         <p className='fs-5 text-muted my-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     </div>
                 </div>
-                <div className='col-12 col-md-6 border-bottom ps-3 '>
+                <div className='col-12 col-md-6 border-bottom '>
                     <div className='row  g-4 '>
                         <div
                             className='col-12 col-md-6 border-bottom overflow-hidden'>
                             <div data-aos="zoom-in-right"
-                            data-aos-duration='1000'
-                            data-aos-delay='200' className='zoom'>
+                                data-aos-duration='1000'
+                                data-aos-delay='200' className='zoom'>
 
                                 <div className='imgContainer'>
                                     <Link to="/details">
@@ -54,8 +54,8 @@ const Sports = () => {
                         <div
                             className='col-md-6 border-bottom overflow-hidden'>
                             <div data-aos="zoom-in-right"
-                            data-aos-duration='1000'
-                            data-aos-delay='200' className='zoom'>
+                                data-aos-duration='1000'
+                                data-aos-delay='200' className='zoom'>
 
                                 <div className='imgContainer'>
                                     <Link to="/details">
@@ -64,15 +64,15 @@ const Sports = () => {
                                 </div>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                            <p className='fs-6 effect'>Ronaldo Finished his training for his new team Al Nassr.</p>
-                                </Link>
+                                <p className='fs-6 effect'>Ronaldo Finished his training for his new team Al Nassr.</p>
+                            </Link>
                         </div>
 
                         <div
                             className='col-md-6 overflow-hidden'>
                             <div data-aos="zoom-in-right"
-                            data-aos-duration='1000'
-                            data-aos-delay='200' className='zoom'>
+                                data-aos-duration='1000'
+                                data-aos-delay='200' className='zoom'>
 
                                 <div className='imgContainer'>
                                     <Link to="/details">
@@ -81,14 +81,14 @@ const Sports = () => {
                                 </div>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                            <p className='fs-6 effect'>Another legend passed away after Pele's death.</p>
-                                </Link>
+                                <p className='fs-6 effect'>Another legend passed away after Pele's death.</p>
+                            </Link>
                         </div>
                         <div
                             className='col-md-6 overflow-hidden'>
                             <div data-aos="zoom-in-right"
-                            data-aos-duration='1000'
-                            data-aos-delay='200' className='zoom'>
+                                data-aos-duration='1000'
+                                data-aos-delay='200' className='zoom'>
                                 <div className='imgContainer'>
                                     <Link to="/details">
                                         <img src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/tv-20230107095059.jpg" className='img-fluid' alt="" />
@@ -96,8 +96,8 @@ const Sports = () => {
                                 </div>
                             </div>
                             <Link to='/details' className='text-decoration-none text-dark'>
-                            <p className='fs-6 effect'>See all the live matches from BPL on your Tv.</p>
-                                </Link>
+                                <p className='fs-6 effect'>See all the live matches from BPL on your Tv.</p>
+                            </Link>
                         </div>
                     </div>
 

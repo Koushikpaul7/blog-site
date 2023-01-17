@@ -7,12 +7,12 @@ const Last = () => {
         <div className='container py-md-5 overflow-hidden'>
             <div className='row g-2'>
                 <div className=' col-12 col-md-12 '>
-                        <h3 className='title my-3 border-style py-3'>
-              
-                            <span className=''>Read more</span>
-                    
-                        </h3>
-                    <div className='row g-2 line'>
+                    <h3 className='title my-3 border-style py-3'>
+
+                        <span className=''>Read more</span>
+
+                    </h3>
+                    <div className='row line'>
                         <div
                             data-aos="fade-up-right"
                             data-aos-duration="1000"

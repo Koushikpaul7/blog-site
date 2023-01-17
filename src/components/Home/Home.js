@@ -5,11 +5,13 @@ import Politics from './Politics';
 import Sports from './Sports';
 import './Home.css'
 import Economics from './Economics';
+import Latest from './Latest';
 const Home = () => {
   return (
     <div>
 
       <Banner></Banner>
+      <Latest></Latest>
       <Sports></Sports>
       <Politics></Politics>
       <Economics></Economics>
